@@ -1,4 +1,4 @@
-import { Button, Head, Navbar, ScrollTop, Cronogram, Supporters, Contact, Footer, Panel } from '../components';
+import { Button, Head, Navbar, ScrollTop, Cronogram, Supporters, Footer, Panel } from '../components';
 
 export default function HackoonWeek() {
     return (

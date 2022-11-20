@@ -132,32 +132,24 @@ button:hover, button:focus {
     background: #f44bfac0;
 }
 
+.interactiveImg {
+    margin-top: 20px;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
 .entidadeImg, .patrocinadorImg {
     margin-left: auto;
     margin-left: auto;
-    margin-top: 20px;
     max-width: 200px;
+}
+
+.interactiveImg:active, .interactiveImg:hover {
     opacity: 0.75;
     transition: opacity .3s ease-in-out;
     -moz-transition: opacity .3s ease-in-out;
     -webkit-transition: opacity .3s ease-in-out;
-}
-
-.entidadeImg:active, .patrocinadorImg:active, .contatoImg:active,
-.entidadeImg:hover, .patrocinadorImg:hover, .contatoImg:hover {
-    opacity: 1.0;
-    transition: opacity .3s ease-in-out;
-    -moz-transition: opacity .3s ease-in-out;
-    -webkit-transition: opacity .3s ease-in-out;
-}
-
-.contatoImg {
-    max-width: 80px;
-    margin-top: 20px;
-    opacity: 0.75;
-    transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
 }
 
 .entidadeImg {

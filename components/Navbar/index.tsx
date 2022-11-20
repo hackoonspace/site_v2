@@ -28,7 +28,7 @@ const navToggleCSS = {
 
 function NavbarComponent() {	
 	return (
-		<Navbar style={navContainerCSS} sticky='top' expand="md">
+		<Navbar style={navContainerCSS} sticky='top' expand="xl">
 				<Navbar.Brand style={navBrandCSS} href='/'>
 					<Image height="45" width="50" src="/hs_logo_purple.png" alt="Logo HackoonSpace"/> 
 					<span className='brand-span'>HACKOONSPACE</span>
@@ -40,10 +40,22 @@ function NavbarComponent() {
 							<Nav.Link style={{color: 'white'}} href="/">Home</Nav.Link>
 						</div>
 						<div className='nav-link-container'>
+							<Nav.Link style={{color: 'white'}} href="/">Sobre</Nav.Link>
+						</div>
+						<div className='nav-link-container'>
+							<Nav.Link style={{color: 'white'}} href="/">Projetos</Nav.Link>
+						</div>
+						<div className='nav-link-container'>
+							<Nav.Link style={{color: 'white'}} target='__blank' href="https://newsletter-hackoon.herokuapp.com/">Newsletter</Nav.Link>
+						</div>
+						<div className='nav-link-container'>
 							<Nav.Link style={{color: 'white'}} href="/hackoonweek">HackoonWeek</Nav.Link>
 						</div>
 						<div className='nav-link-container'>
 							<Nav.Link style={{color: 'white'}} href="/faq">FAQ</Nav.Link>
+						</div>
+						<div className='nav-link-container'>
+							<Nav.Link style={{color: 'white'}} href="/#contact">Contato</Nav.Link>
 						</div>
 					</Nav>
 				</Navbar.Collapse>

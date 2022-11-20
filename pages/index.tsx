@@ -1,4 +1,4 @@
-import { Button, Head, Navbar, ScrollTop, Cronogram, Supporters, Contact, Footer, Panel } from '../components';
+import { Head, Navbar, ScrollTop, Contact, Footer, Panel } from '../components';
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
           ]}
         />
         <ScrollTop />
-        <Contact/>
+        <Contact id='contact' />
         <Footer/>
       </main>
     </>
