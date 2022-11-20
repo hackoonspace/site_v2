@@ -1,26 +1,342 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: rgb(207, 207, 207); 
+    box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+main::after {
+    background-image: url('../public/HomeBackGround.jpeg');
+    filter: brightness(0.6);
+    content : "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity : 0.95;
+    z-index: -999;
+    background-size: cover;
+}
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    color: #eb628be1;
+}
+
+.link:hover {
+    transition: .2s linear;
+    color: #ffaec6e1;
+    text-decoration: underline;
+}
+
+.form h2 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form .input {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.form .input {
+    margin-top: 10px;
+}
+
+.form .input .inputBox label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.form .input .inputBox input {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    background:linear-gradient(315deg,#e91e63,#5d02ff) ;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.form .input .inputBox input[type="submit"] {
+    cursor: pointer;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+
+.form .input .inputBox input[type="submit"]:hover {
+    background:linear-gradient(315deg,#5d02ff,#e91e63) ;
+}
+
+.form .input .inputBox input[type="submit"]:active {
+    color: rgba(255, 255, 255, 0.521);
+    background:linear-gradient(315deg,#e91e6271,#5f02ff8c) ;
+}
+
+.statusMessage label {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.selectBox {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.selectBox label {
+    hyphens: auto;
+} 
+
+.selectBox input{
+    height: 20px;
+    width: 20px;
+}
+
+button:active {
+    color: rgb(212, 212, 212);
+}
+
+button:focus {
+    background: #9e04a35b;
+}
+
+.entidadeImg, .patrocinadorImg {
+    margin-left: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    max-width: 200px;
+    opacity: 0.75;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
+.entidadeImg:active, .patrocinadorImg:active, .contatoImg:active,
+.entidadeImg:hover, .patrocinadorImg:hover, .contatoImg:hover {
+    opacity: 1.0;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+}
+
+.contatoImg {
+    max-width: 80px;
+    margin-top: 20px;
+    opacity: 0.75;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.entidadeImg {
+    max-width:  125px;
+    max-height: 125px;
+    object-fit: scale-down;
+}
+
+.patrocinadorImg {
+    max-width:  250px;
+    max-height: 250px;
+    object-fit: scale-down;
+}
+
+.patrocinadores {
+    padding: 40px 40px 50px;
+}
+
+.contato, .entidades {
+    padding: 20px 20px 30px;
+}
+
+.contato, .entidades, .patrocinadores {
+    position: relative;
+    background: #060c21;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-family: 'VT323';
+}
+
+.spaceBorder {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    background: linear-gradient(315deg,#e91e63,#5d02ff);
+    padding: 3px;
+}
+
+.login {
+    position: relative;
+    background: #060c21;
+    border: 1px solid #000;
+    padding: 30px 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+html, body, #root, .App {
+    height: 100%;
+}
+
+.formConta {
+    border: 1.5px solid rgb(34, 226, 252); 
+    background-color: #170d5199;
+    padding: 40px 40px 40px;
+    border-radius: 10px;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.formConta h2 {
+    font-family: 'VT323';
+    font-weight: 500;
+    color: #7cb5eb; 
+    margin-top: 0px;
+    text-align: center;
+}
+
+.formConta .input {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.inputBoxC span {
+    display: block;
+    color: #fff;
+    font-family: "VT323";
+    
+    letter-spacing: 1px;
+}
+
+.form .input .inputBox input[type="submit"]:active {
+    color: rgba(255, 255, 255, 0.521);
+    background:linear-gradient(315deg,#e91e6271,#5f02ff8c) ;
+}
+
+.form .input .inputBox .emailConstant {
+    background: gray;
+    margin-bottom: 6px;
+    color: rgb(61, 61, 61);
+}
+
+.termos, .privacidade {
+    padding: 20px 20px 30px;
+    position: relative;
+    background: #060c21;
+    border: 1px solid #000;
+    border-radius: 10px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.termosBorder {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 800px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1rem;
+    background: linear-gradient(315deg,#e91e63,#5d02ff);
+    padding: 3px;
+}
+
+body, main { 
+    height: 100vh; 
+    margin:0; 
+}
+
+.duvida {
+    margin-top: 35px;
+}
+
+.linhaDuvida{
+    margin-top: 25px;
+    border-top: 1px solid #eb628be1;
+}
+
+h5 {
+    margin-bottom: 20px;
+}
+
+.margin {
+    font-size: 22px;
+}
+
+.botoes {
+    position: absolute;
+    bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 45px;
+    left: 0;
+    text-align: center;             
+}
+
+.botaoConta {
+    margin-top: 20px;
+}
+
+@media (max-width: 350px) {
+    .formConta{
+        padding: 30px 10px 10px;
+    }
+}
+
+@media (max-width: 660px) {
+    .spaceBorder {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .Conta{
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .Conta > div {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 45px;
+    }
 }
