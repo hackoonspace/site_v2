@@ -24,6 +24,10 @@ export default css`
     .palestraBox::-webkit-scrollbar {
         width: 10px;
     }
+
+    ::-webkit-scrollbar {
+        cursor: pointer;
+    }
     
     ::-webkit-scrollbar-track {
         box-shadow: inset 0 0 5px rgba(65, 60, 60, 0.253); 
@@ -31,12 +35,12 @@ export default css`
     }
     
     ::-webkit-scrollbar-thumb {
-        background:#f700ff6e; 
+        background: #f700ff6e; 
         border-radius: 10px;
     }
 
     ::-webkit-scrollbar-thumb:hover {
-        background:rgba(54, 56, 58, 0.281); 
+        background: #f44bfac0;
     }
 
     .buttonbox {
@@ -73,9 +77,7 @@ export default css`
         background: #ad04b35b;
     }
 
-    @media(max-width: 768px) {
-        .cronogram-buttons {
-            flex-direction: column;
-        }
+    .cronogram-buttons div {
+        white-space: nowrap;
     }
 `;

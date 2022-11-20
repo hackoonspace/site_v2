@@ -44,29 +44,29 @@ export default function Cronogram() {
 
 	return (
 		<div className="palestraContainer">
-			<div className="cronogram-buttons d-flex column justify-content-around mb-2 gap-4 p-4">
-				<div>
-					<button className="col-sm" style={getButtonBackgroundColor(0)} onClick={() => changeDay(0) }>
+			<div className="cronogram-buttons row d-flex column justify-content-around mb-2 gap-4 p-4">
+				<div className="col col-md-auto d-flex justify-content-center">
+					<button style={getButtonBackgroundColor(0)} onClick={() => changeDay(0) }>
 						1º dia - 12/12
 					</button>
 				</div>
-				<div>
-					<button className="col-sm" style={getButtonBackgroundColor(1)} onClick={() => changeDay(1) }>
+				<div className="col col-md-auto d-flex justify-content-center">
+					<button style={getButtonBackgroundColor(1)} onClick={() => changeDay(1) }>
 						2º dia - 13/12
 					</button>
 				</div>
-				<div> 
-					<button className="col-sm" style={getButtonBackgroundColor(2)} onClick={() => changeDay(2) }>
+				<div className="col col-md-auto d-flex justify-content-center"> 
+					<button style={getButtonBackgroundColor(2)} onClick={() => changeDay(2) }>
 						3º dia - 14/12
 					</button>
 				</div>
-				<div> 
-					<button className="col-sm" style={getButtonBackgroundColor(3)} onClick={() => changeDay(3) }>
+				<div className="col col-md-auto d-flex justify-content-center"> 
+					<button style={getButtonBackgroundColor(3)} onClick={() => changeDay(3) }>
 						4º dia - 15/12
 					</button>
 				</div>
-				<div> 
-					<button className="col-sm" style={getButtonBackgroundColor(4)} onClick={() => changeDay(4) }>
+				<div className="col col-md-auto d-flex justify-content-center"> 
+					<button style={getButtonBackgroundColor(4)} onClick={() => changeDay(4) }>
 						5º dia - 16/12
 					</button>
 				</div>

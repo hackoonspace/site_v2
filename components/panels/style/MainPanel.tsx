@@ -1,14 +1,14 @@
 import css from 'styled-jsx/css';
 
 export default css`
-    .MeioPagLogo{
+    .MeioPagLogo {
         height:240%;
         max-height: 700px;
         min-height: 250px;
         width: auto;
     }
 
-    .text{
+    .text {
         /*color:#d95d67d3;*/
         /*color:#D25899;*/
         /*color: #D8C700;*/
@@ -22,6 +22,7 @@ export default css`
         font-weight: 150;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .text::after {

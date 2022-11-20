@@ -15,6 +15,13 @@
                 "host": "Host 33",
                 "hour": "[10:00 - 11:00]",
                 "image": "/HackoonEstampa.png"
+            },
+            {
+                "title": "Abertura 3",
+                "description": "Descrição da atividade 33",
+                "host": "Host 33",
+                "hour": "[10:00 - 11:00]",
+                "image": "/HackoonEstampa.png"
             }
         ]
     },
