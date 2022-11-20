@@ -1,6 +1,16 @@
 # TODO:
-- Menu hamburger nao funfa porque nao ta importando js do boostrap
-- Robots.txt
+- esilizar hover de background de toggle
+- consertar texto do faq da hackoonweek
+- terminar footer
+
 - Outras páginas (FAQ, etc)
-- Talvez fazer slide de botões de dias em duas colunas
-- Talvez fazer botão com setinha para subir site todo que nem o da hanna
+- link de botao de inscricoes
+
+## Nav:
+- Home
+- Sobre
+- Projetos
+- Newsletter
+- HackoonWeek
+- faq
+- Contato

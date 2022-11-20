@@ -14,11 +14,13 @@ export default css`
     .palestraBox {
         overflow-y: scroll; 
         display:block;
-        height: 650px;
+        height: 450px;
         /*width: 150vh;*/
         width: 95%;
         margin-left:20px;
         border-radius: 10px;
+        border: 2px solid cyan;
+        background-color: rgba(200, 200, 200, 0.2);
     }
 
     .palestraBox::-webkit-scrollbar {
@@ -73,8 +75,8 @@ export default css`
         border-radius: 8px;
     }
 
-    button:hover{
-        background: #ad04b35b;
+    button:hover {
+        background: #f44bfac0;
     }
 
     .cronogram-buttons div {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Presentation from "./Presentation";
+import Presentation from "../Presentation";
 
-import CronogramStyle from './style/Cronogram';
+import CronogramStyle from './style';
 import CronogramJson from '../../data/cronogram.json';
 
 export default function Cronogram() {
@@ -13,7 +13,7 @@ export default function Cronogram() {
 	]);
 
 	function getButtonBackgroundColor(day: number) {
-		return day === selectedDay ?  { backgroundColor: "#f44bfac0" } : { backgroundColor: "" };
+		return day === selectedDay ?  { backgroundColor: "#f44bfac0" } : { };
 	}
 
 	function changeDay(newDay: number) {

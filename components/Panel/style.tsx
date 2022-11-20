@@ -1,19 +1,24 @@
 import css from 'styled-jsx/css';
 
 export default css`
-    .MeioPagLogo {
-        height:240%;
-        max-height: 700px;
-        min-height: 250px;
-        width: auto;
+    .containerLogo {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 32px;
+        margin-top: 25px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 550px;
+    }
+
+    .logo {
+        height: auto;
+        width: 100%;
     }
 
     .text {
-        /*color:#d95d67d3;*/
-        /*color:#D25899;*/
-        /*color: #D8C700;*/
-        /*color:#efe9ef;*/
-        color:#eb628be1;
+        color: #eb628be1;
         opacity: 1;
         font-family: "VT323";
         margin-top: 8px;
@@ -44,16 +49,6 @@ export default css`
         margin-right: 20px;
         margin-bottom: 20px;
         margin-top: 10px;
-    }
-
-    .containerLogo{
-        display: flex;
-        width: 100%; 
-        height: 15vw;
-        justify-content:center;
-        align-items: center;
-        margin-bottom: 32px;
-        margin-top:25px;
     }
 
     .containerTexto {

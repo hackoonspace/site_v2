@@ -80,7 +80,7 @@ main::after {
     border: none;
     outline: none;
     padding: 5px 15px;
-    background:linear-gradient(315deg,#e91e63,#5d02ff) ;
+    background:linear-gradient(315deg,#e91e63,#5d02ff);
     color: #fff;
     font-size: 18px;
     border-radius: 10px;
@@ -125,10 +125,11 @@ main::after {
 
 button:active {
     color: rgb(212, 212, 212);
+    background: #f44bfac0;
 }
 
-button:focus {
-    background: #9e04a35b;
+button:hover, button:focus {
+    background: #f44bfac0;
 }
 
 .entidadeImg, .patrocinadorImg {

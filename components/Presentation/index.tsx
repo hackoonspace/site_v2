@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-import PresentationStyle from './style/Presentation';
+import PresentationStyle from './style';
 
 interface Props {
 	title: string,
@@ -13,7 +13,7 @@ interface Props {
 
 function Presentation ({ title, description, host, hour, image }: Props) {
 	return (
-		<div>
+		<div style={{padding: 10}}>
 			<div className="palestra">
 				<div className="infoBox">
 					<div className="imagemContainer">    

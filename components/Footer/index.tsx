@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterStyle from './style/Footer';
+import FooterStyle from './style';
 	
 export default function Footer() {
 	return ( 
@@ -12,7 +12,7 @@ export default function Footer() {
                     <a className='link' target="_blank" rel="noreferrer" href="/Privacidade">Política de Privacidade</a>
                 </div>
                 <div className="col-md-4">
-                    <a className='link' target="_blank" rel="noreferrer"href="/FAQ">FAQ</a>
+                    <a className='link' target="_blank" rel="noreferrer"href="/faq">FAQ</a>
                 </div>
             </footer>
             <style jsx>

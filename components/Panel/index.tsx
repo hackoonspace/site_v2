@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MainPanelStyle from './style/MainPanel';
+import MainPanelStyle from './style';
 
 interface Props {
     title: string;
@@ -13,7 +13,7 @@ function MainPanel ({ title, description, image }: Props) {
 		<div>
 			<div className="containerLogo"> 
 				{/* eslint-disable-next-line @next/next/no-img-element */}
-				<img className="MeioPagLogo" src={image} alt="Logo HackoonWeek"/>
+				<img className="logo" src={image} alt="Logo HackoonWeek"/>
 			</div>
 			<div className="centralizador">
 

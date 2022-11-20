@@ -1,11 +1,4 @@
-import Head from '../components/head/Head';
-import Navbar from '../components/navbar/Navbar';
-import MainPanel from '../components/panels/MainPanel';
-import Cronogram from '../components/presentation/Cronogram';
-import Patrocinio from '../components/home/Sponsors';
-import Entidades from '../components/home/Supporters';
-import Contact from '../components/home/Contact';
-import Footer from '../components/footer/Footer';
+import { Button, Head, Navbar, ScrollTop, Cronogram, Supporters, Contact, Footer, Panel } from '../components';
 
 export default function Home() {
   return (
@@ -13,7 +6,7 @@ export default function Home() {
       <Head/>
       <main>
         <Navbar/>
-        <MainPanel 
+        <Panel 
           title="Você conhece a HackoonWeek?"
           image="/hackoonweek2021_logo.png"
           description={[
@@ -28,9 +21,7 @@ export default function Home() {
             </p>
           ]}
         />
-        <Cronogram /> 
-        <Patrocinio/>
-        <Entidades/>
+        <ScrollTop />
         <Contact/>
         <Footer/>
       </main>

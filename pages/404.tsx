@@ -1,7 +1,5 @@
-import Head from '../components/head/Head';
-import Navbar from '../components/navbar/Navbar';
 import Image from 'next/image';
-import Footer from '../components/footer/Footer';
+import { Head, Navbar, Footer } from '../components';
 
 export default function ErrorPage() {
   return (

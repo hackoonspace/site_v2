@@ -29,9 +29,7 @@ export default css`
         /*background-color: #1c1e29af;*/
         background-color: #170d5199;
         border: 2px solid rgb(34, 226, 252); 
-        margin-bottom: 5px;
         border-radius: 10px;
-        margin-right:10px;
         align-items: center;
         padding: 10px;
     }
