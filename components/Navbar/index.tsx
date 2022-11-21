@@ -23,12 +23,12 @@ const navBrandCSS = {
 const navToggleCSS = {
 	color: 'white', 
 	marginRight: 20,
-	backgroundColor: 'rgb(14, 29, 76)',
+	backgroundColor: 'rgb(235, 100, 140)'
 }
 
 function NavbarComponent() {	
 	return (
-		<Navbar style={navContainerCSS} sticky='top' expand="xl">
+		<Navbar variant='dark' style={navContainerCSS} sticky='top' expand="xl">
 				<Navbar.Brand style={navBrandCSS} href='/'>
 					<Image height="45" width="50" src="/hs_logo_purple.png" alt="Logo HackoonSpace"/> 
 					<span className='brand-span'>HACKOONSPACE</span>
@@ -40,10 +40,10 @@ function NavbarComponent() {
 							<Nav.Link style={{color: 'white'}} href="/">Home</Nav.Link>
 						</div>
 						<div className='nav-link-container'>
-							<Nav.Link style={{color: 'white'}} href="/">Sobre</Nav.Link>
+							<Nav.Link style={{color: 'white'}} href="/#about">Sobre</Nav.Link>
 						</div>
 						<div className='nav-link-container'>
-							<Nav.Link style={{color: 'white'}} href="/">Projetos</Nav.Link>
+							<Nav.Link style={{color: 'white'}} href="/projects">Projetos</Nav.Link>
 						</div>
 						<div className='nav-link-container'>
 							<Nav.Link style={{color: 'white'}} target='__blank' href="https://newsletter-hackoon.herokuapp.com/">Newsletter</Nav.Link>

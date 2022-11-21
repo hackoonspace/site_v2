@@ -1,6 +1,6 @@
 function Sponsors() {
 	return ( 
-		<div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
+		<div className='d-flex justify-content-center align-items-center'>
 			<div className="spaceBorder">
 				<div className="patrocinadores">
 					<h1>Patrocinador</h1>
