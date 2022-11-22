@@ -15,8 +15,9 @@ export default css`
     .faq-title {
         color: white;
         font-family: 'VT323';
-        font-size: 32px;
+        font-size: 42px;
         margin-bottom: 18px;
+        text-align: center;
     }
 
     .faq-question-title {

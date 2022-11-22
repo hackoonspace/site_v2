@@ -1,5 +1,3 @@
-import React from 'react';
-
 import ButtonStyle from './style';
 
 interface Props {

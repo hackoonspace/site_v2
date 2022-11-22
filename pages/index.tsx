@@ -7,19 +7,23 @@ export default function Home() {
       <main>
         <Navbar/>
         <Panel 
-          title="Você conhece a HackoonWeek?"
-          image="/hackoonweek2021_logo.png"
+          title="Seja bem-vindo(a)"
+          image="/HackoonEstampa.png"
           description={[
-            <p key='panel-1'>
-              A HackoonWeek é um evento anual sobre cultura hacker, programação e o mundo da computação no geral. Ele é realizado pelo hackerspace <a className='link' href="https://hackoonspace.com" rel="noreferrer" target="_blank">HackoonSpace</a>, localizado na Universidade Federal de São Carlos, em Sorocaba.
+            <p key='panel-1' className='paragraph'>
+              Você está no site da melhor comunidade hacker desse Brasil!
             </p>,
-            <p key='panel-2'>
-              Essa edição, que será entre os dias 12/12 e 16/12, contará com várias atividades diferentes, com o intuito de agregar conhecimento e apresentar nosso trabalho para vocês. Também teremos a participação especial de alguns convidados.
+            <p key='panel-2' className='paragraph'>
+              O HackoonSpace é um hackerspace e comunidade ligado a <a className='link' href='https://www.ufscar.br/' target='__blank'>Universidade Federal de São Carlos (UFSCar)</a>, principalmente ao campus de Sorocaba.
             </p>,
-            <p key='panel-3'>
-              Para participar, basta fazer o cadastro neste site, se inscrever nas atividades que você deseja e validar sua presença durante elas. No final do evento, será possível obter um certificado de participação.
+            <p key='panel-3' className='paragraph'>
+              Nossa missão é desmistificar a figura do hacker, mostrando que ele vai muito além de um simples criminoso. Além disso, queremos trazer, tanto para os alunos da nossa universidade, quanto para as demais pessoas, mais conhecimento sobre computação e hacking.
+            </p>,
+            <p key='panel-4' className='paragraph'>
+              Aproveite a estadia aqui e conheça mais do nosso trabalho!
             </p>
           ]}
+          imgWidth={300}
         />
         <ScrollTop />
         <Contact id='contact' />

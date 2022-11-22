@@ -249,6 +249,12 @@ body, main {
     margin:0; 
 }
 
+.paragraph {
+    margin: 0;
+    line-height: 34px;
+    text-align: center;
+}
+
 .linhaDuvida{
     margin-top: 25px;
     border-top: 1px solid #eb628be1;
@@ -308,6 +314,27 @@ h5 {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #c840cc;
+}
+
+.page-count {
+    text-align: center;
+    font-weight: 150;
+    font-size: 26px;
+    font-family: 'VT323';
+    margin: 0;
+}
+
+.page-button {
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'VT323';
+    font-size: 22px;
+    background-color: #a828ac9b;
+}
+
+.page-button:hover {
+    background: #c740cca4;
 }
 
 @media (max-width: 660px) {

@@ -1,21 +1,9 @@
 import css from 'styled-jsx/css';
 
 export default css`
-    .palestraImagem {
-        border-radius: 50%;
-        max-height: 170px;
-        justify-content:center;
-        align-items:center;
-        width:  150px;
-        height: 150px;
-        object-fit: cover;
-    }
-
     .imagemContainer {
         display: flex;
         flex-direction: column;
-        /*height: 30vh;*/
-        /*background-color: rgb(121, 85, 85); */
         align-items: center;
         justify-content: center;
         margin-right: auto;
@@ -23,10 +11,8 @@ export default css`
     }
 
     .palestra {
-        /*border: 2px solid red; */
         height:max-content;
         display:block;
-        /*background-color: #1c1e29af;*/
         background-color: #170d5199;
         border: 2px solid rgb(34, 226, 252); 
         border-radius: 10px;

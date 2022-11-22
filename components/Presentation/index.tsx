@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 
 import PresentationStyle from './style';
@@ -17,7 +16,7 @@ function Presentation ({ title, description, host, hour, image }: Props) {
 			<div className="palestra">
 				<div className="infoBox">
 					<div className="imagemContainer">    
-					<Image className="palestraImagem" width='250' height='250' src={image} alt="palestra"/>	
+					<Image style={{margin: 20}} width='150' height='150' src={image} alt="palestra"/>	
 					</div> 
 					<div className="horarioTitulo">
 						<div>

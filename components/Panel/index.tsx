@@ -1,27 +1,29 @@
-import React from 'react';
-
 import MainPanelStyle from './style';
 
 interface Props {
     title: string;
     description: JSX.Element[];
     image: string;
+	reverse?: boolean;
+	imgWidth?: number;
+	imgHeight?: number;
 }
 
-function MainPanel ({ title, description, image }: Props) {
+function MainPanel ({ title, description, image, reverse, imgWidth, imgHeight }: Props) {
+	const direction = reverse ? 'column-reverse' : 'column';
+	const width = imgWidth || 'auto';
+	const height = imgHeight || 'auto';
 	return (
-		<div>
+		<div className='panel-container' id='about' style={{flexDirection: direction}}>
 			<div className="containerLogo"> 
-				{/* eslint-disable-next-line @next/next/no-img-element */}
-				<img className="logo" src={image} alt="Logo HackoonWeek"/>
+				<img className="logo" width={width} height={height} src={image} alt="Logo HackoonWeek"/>
 			</div>
-			<div className="centralizador">
-
 			<div className="containerTexto">
 				<h1 className="text">{title}</h1>
-				{ description.map((d, index) => <div className="descricao" key={`d-${index}`}>{d}</div>) }
+				<div className='panel-items-container'>
+					{ description.map((d, index) => <div className="descricao" key={`d-${index}`}>{d}</div>) }
+				</div>
 			</div> 
-			</div>
 			<style jsx>
 				{MainPanelStyle}
 			</style>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Presentation from "../Presentation";
 
 import CronogramStyle from './style';

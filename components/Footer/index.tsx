@@ -1,4 +1,3 @@
-import React from 'react';
 import FooterStyle from './style';
 
 import linkJson from '../../data/links.json';

@@ -1,6 +1,5 @@
 # TODO:
 - ver mais projetos pra colocar no projects
-- dados a serem apresentados na página inicial
 
 ## com ajuda da equipe jr
 - perguntas do faq do hackoon
@@ -9,4 +8,5 @@
 - link de botao de inscricoes
 
 ## opcional
+- colocar mais coisas na home
 - se tiver competições e sorteios, adicionar no faq da hackoonweek
