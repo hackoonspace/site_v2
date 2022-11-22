@@ -44,7 +44,9 @@ function Contact({ id }: Props) {
 							</a>
 						</div>
 					</div>
-					<h4 className='mt-4'>E-mail: <a className='link' href="mailto:hackoonspace@gmail.com">hackoonspace@gmail.com</a></h4>
+					<p className='contact-email mt-4'>
+						E-mail: <a className='link' href="mailto:hackoonspace@gmail.com">hackoonspace@gmail.com</a>
+					</p>
 				</div>
 			</div>
 			<style jsx>
