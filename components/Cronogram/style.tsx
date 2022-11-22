@@ -13,36 +13,11 @@ export default css`
 
     .palestraBox {
         overflow-y: scroll; 
-        display:block;
+        display: block;
         height: 450px;
-        /*width: 150vh;*/
-        width: 95%;
-        margin-left:20px;
         border-radius: 10px;
         border: 2px solid cyan;
         background-color: rgba(200, 200, 200, 0.2);
-    }
-
-    .palestraBox::-webkit-scrollbar {
-        width: 10px;
-    }
-
-    ::-webkit-scrollbar {
-        cursor: pointer;
-    }
-    
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px rgba(65, 60, 60, 0.253); 
-        border-radius: 10px;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background: #f700ff6e; 
-        border-radius: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: #f44bfac0;
     }
 
     .buttonbox {
@@ -81,5 +56,14 @@ export default css`
 
     .cronogram-buttons div {
         white-space: nowrap;
+    }
+
+    ::-webkit-scrollbar-track-piece {
+        border-radius: 10px;
+        background-color: rgba(169, 169, 169, 0.357);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
     }
 `;

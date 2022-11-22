@@ -3,6 +3,7 @@ export { default as Cronogram } from './Cronogram';
 export { default as FAQ } from './FAQ';
 export { default as Footer } from './Footer';
 export { default as Head } from './Head';
+export { default as List } from './List';
 export { default as Contact } from './Contact';
 export { default as Sponsors } from './Sponsors';
 export { default as Supporters } from './Supporters';

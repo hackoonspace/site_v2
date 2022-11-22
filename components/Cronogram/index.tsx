@@ -43,8 +43,8 @@ export default function Cronogram() {
 	}, [selectedDay]);
 
 	return (
-		<div className="palestraContainer">
-			<div className="cronogram-buttons row d-flex column justify-content-around mb-2 gap-4 p-4">
+		<div className="palestraContainer mt-5">
+			<div className="cronogram-buttons row d-flex justify-content-around mb-4 gap-4 mw-100">
 				<div className="col col-md-auto d-flex justify-content-center">
 					<button style={getButtonBackgroundColor(0)} onClick={() => changeDay(0) }>
 						1º dia - 12/12

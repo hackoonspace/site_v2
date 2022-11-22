@@ -1,8 +1,12 @@
 # TODO:
-- mudar cores do acordion do faq
-- listagem de revistas
+- ver mais projetos pra colocar no projects
 - dados a serem apresentados na página inicial
+
+## com ajuda da equipe jr
 - perguntas do faq do hackoon
-- consertar texto do faq da hackoonweek
-- terminar footer
+
+## com ajuda do fer ?
 - link de botao de inscricoes
+
+## opcional
+- se tiver competições e sorteios, adicionar no faq da hackoonweek

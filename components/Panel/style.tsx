@@ -52,12 +52,10 @@ export default css`
     }
 
     .containerTexto {
-        margin-bottom: 32px;
         margin-left: 20px; 
         margin-right: 20px;
-        background-color: #170d5183;
-        border: 1px solid rgba(0, 0, 0, 0);
-        width: 150vh;
+        background-color: #120b3cc4;
+        width: 100vh;
         display:flex;
         flex-direction: column;
         align-items: center;

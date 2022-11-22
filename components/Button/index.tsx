@@ -5,10 +5,11 @@ import ButtonStyle from './style';
 interface Props {
     text: string;
     href: string;
+    target?: '__blank';
     size: 'bg' | 'md' | 'sm';
 }
 
-export default function Button({text, href, size}: Props) {
+export default function Button({text, href, target, size}: Props) {
     const sizes = {
         'bg': 35,
         'md': 30,
@@ -17,7 +18,7 @@ export default function Button({text, href, size}: Props) {
 
 	return ( 
         <div className='mt-5 d-flex justify-content-center align-items-center'>
-            <a className='button-anchor' style={{fontSize: sizes[size]}} href={href}>
+            <a className='button-anchor' target={target} style={{fontSize: sizes[size]}} href={href}>
                 {text}
             </a>
             <style jsx>

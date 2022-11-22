@@ -1,0 +1,31 @@
+[
+    {
+        "text": "Home",
+        "href": "/"
+    },
+    {
+        "text": "Sobre",
+        "href": "/#about"
+    },
+    {
+        "text": "Projetos",
+        "href": "/projects"
+    },
+    {
+        "text": "Newsletter",
+        "href": "https://newsletter-hackoon.herokuapp.com/",
+        "blank": true
+    },
+    {
+        "text": "HackoonWeek",
+        "href": "/hackoonweek"
+    },
+    {
+        "text": "FAQ",
+        "href": "/faq"
+    },
+    {
+        "text": "Contato",
+        "href": "/#contact"
+    }
+]

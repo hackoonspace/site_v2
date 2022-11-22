@@ -1,19 +1,21 @@
 import React from 'react';
 import FooterStyle from './style';
-	
+
+import linkJson from '../../data/links.json';
+
 export default function Footer() {
 	return ( 
         <div>
-            <footer className="w-100 d-flex justify-content-center align-items-center fixed-footer text-center">
-                <div className="col-md-4">
-                    <a className='link' target="_blank" rel="noreferrer" href="/TermosDeUso">Termos de Uso</a>
-                </div>
-                <div className="col-md-4">
-                    <a className='link' target="_blank" rel="noreferrer" href="/Privacidade">Política de Privacidade</a>
-                </div>
-                <div className="col-md-4">
-                    <a className='link' target="_blank" rel="noreferrer"href="/faq">FAQ</a>
-                </div>
+            <footer className="row d-flex justify-content-center mb-4 gap-2 w-100">
+                {
+                    linkJson.map((link, index) => {
+                        return (
+                            <div key={`footer-${index}`}className="col-md text-center">
+                                <a className='link' target={link.blank ? "__blank" : ""} rel="noreferrer"href={link.href}>{link.text}</a>
+                            </div>
+                        );
+                    })
+                }
             </footer>
             <style jsx>
                 {FooterStyle}

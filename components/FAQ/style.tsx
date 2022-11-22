@@ -1,18 +1,6 @@
 import css from 'styled-jsx/css';
 
 export default css`
-    .faq-space-border {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 45px;
-        max-width: 650px;
-        border: 3px solid rgb(235, 100, 140);
-        border-radius: 10px;
-    }
-
     .faq-container {
         padding: 20px 20px 30px;
         position: relative;
@@ -24,7 +12,32 @@ export default css`
         width: 100%;
     }
 
-    .accordion-button {
-        background-color: gray !important;
+    .faq-title {
+        color: white;
+        font-family: 'VT323';
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+
+    .faq-question-title {
+        font-family: 'VT323';
+        font-size: 24px;
+        color: white;
+        width: 100%;
+    }
+
+    .faq-body {
+        background-color: #060c21;
+        padding: 25px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .faq-question-answer {
+        color: white;
+        font-family: 'VT323';
+        font-size: 24px;
+        margin-bottom: 0;
     }
 `;

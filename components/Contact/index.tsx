@@ -11,7 +11,7 @@ function Contact({ id }: Props) {
 		<div className='d-flex align-items-center justify-content-center' id={id}>
 			<div className="spaceBorder">
 				<div className="contato">
-					<h1>Contato e redes sociais</h1>
+					<h1 style={{color: 'white'}}>Contato e redes sociais</h1>
 					<div className="row">
 						<div className="col-sm">
 							<a href="https://www.facebook.com/hackoonspace/" target="_blank" rel="noreferrer" title="Facebook">

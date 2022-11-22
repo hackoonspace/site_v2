@@ -1,24 +1,28 @@
 [
     {
-        "title": "O que é HackoonWeek?",
+        "title": "Onde o evento será realizado?",
         "answers": [
-            "A HackoonWeek é um evento anual, realizado pelo hackerspace HackoonSpace, localizado na Universidade Federal de São Carlos (UFSCar) em Sorocaba.",
-            "É uma semana com diversas atividades, como palestras, oficinas, competições e sorteios. Todas elas têm como tema principal as tecnologias ligadas a ciência da computação, como principalmente o mundo hacker e a segurança digital.",
-            "Este ano, o evento será realizado totalmente online, a partir das inscrições neste site e da transmissão das atividades no canal do Youtube do HackoonSpace"
+            "A HackoonWeek 2022 será realizado em formato totalmente online, com transmissão no canal do Youtube do HackoonSpace"
         ]
     },
     {
         "title": "Quem pode participar?",
         "answers": [
-            "Não temos uma restrição sobre quem pode participar. Seja você da UFSCar ou não, formado ou não, ou da área da computação ou não. Apenas atentamos ao fato de que menores de idade precisam enviar uma autorização direta de seus responsáveis para a equipe do evento."
+            "Não temos uma restrição sobre quem pode participar. Seja você da UFSCar ou não, formado ou não, ou da área da computação ou não.",
+            "Apenas atentamos ao fato de que menores de idade precisam da autorização de seus responsáveis."
         ]
     },
     {
         "title": "Como posso participar?",
         "answers": [
-            "Para participar da HackoonWeek, é necessário criar uma conta aqui no site. Após isso, enviaremos um e-mail pedindo para você confirmar sua conta.",
-            "Depois de clicar no link de confirmação, basta fazer login e se inscrever nas atividades que você tem interesse! Para cada uma haverá uma transmissão no Youtube na qual os participantes poderão interagir com a equipe do evento e os ministrantes das atividades.",
-            "Caso você não queira se cadastrar, você ainda pode assistir as transmissões ao vivo no canal do Youtube do HackoonSpace. No entanto, você não poderá participar das competições e dos sorteios ou ganhar um certificado de participação."
+            "Para participar, é necessário se inscrever no formulário do Google disponibilizado aqui no nosso site",
+            "Lá você deverá preencher suas informações e selecionar as atividades que você tem interesse! Nos dias e horários correspondentes, a atividade será transmitida no Youtube e você poderá interagir com os palestrantes, a equipe do evento e os demais participantes."
+        ]
+    },
+    {
+        "title": "Posso assistir ao evento sem me inscrever?",
+        "answers": [
+            "Você pode assistir a todas as atividades da HackoonWeek sem se inscrever. Porém, não receberá um certificado de participação e não poderá participar dos sorteios e demais atividades que envolvam sua inscrição."
         ]
     },
     {
@@ -26,45 +30,21 @@
         "answers": [
             "Os certificados de participação são documentos comprovando a sua participação no evento. Eles são emitidos em conformidade com a Pró-Reitoria de Extensão da UFSCar, a PROEX e contam a quantidade de horas de participação que você teve no evento.",
             "Alunos de graduação da UFSCar podem usar estes certificados para validar créditos complementares para sua formação acadêmica. Estudantes de escolas e outras instituições de ensino superior precisam conversar diretamente com a coordenação de seus cursos para verificar se há a possibilidade de validar algo semelhante.",
-            "Todos os certificados serão emitidos e enviados após a finalização do evento, no endereço de e-mail registrado na conta dos participantes cadastrados no site."
-        ]
-    },
-    {
-        "title": "O que são e como funcionam os sorteios?",
-        "answers": [
-            "No dia 11/12, o último dia do evento, teremos o sorteio, para fins puramente recreativos e sem intenções comerciais, de alguns brindes para os participantes cadastrados no evento. Para participar, basta você se cadastrar no site e confirmar sua presença em pelo menos uma atividade.",
-            "Quanto mais atividades você participar, mais chances você terá de ganhar o sorteio. Também aumentaremos as chances do participante que vencer o quiz ao vivo (Kahoot) que será realizado no próprio dia 11/12, antes do sorteio.",
-            "Os prêmios do sorteio serão anúnciados no dia do sorteio. Os vencedores de cada sorteio serão escolhidos ao vivo."
+            "Todos os certificados serão emitidos e enviados após a finalização do evento, no endereço de e-mail registrado no formulário de inscrição."
         ]
     },
     {
         "title": "Como validar minha presença em uma atividade?",
         "answers": [
-            "Para validar sua presença, tudo que você precisa fazer é preencher os formulários na plataforma Google Forms que iremos disponibilizar nos 15 primeiros e nos 15 últimos minutos de cada atividade.",
-            "O primeiro formulário representa a sua &quot;entrada&quot; na atividade. O segundo representa a sua &quot;saída&quot;. Para que possamos confirmar que você participou da atividade, <strong>é necessário que você responda a ambos</strong>.",
-            "Ambos os formulários serão devidamente anúnciados nas transmissões ao vivo, bem como enviados nos chats de texto das transmissões pela equipe de suporte da HackoonWeek."
-        ]
-    },
-    {
-        "title": "O que são e como participar das competições?",
-        "answers": [
-            "De todas as atividades da HackoonWeek, as competições talvez sejam as mais especiais. São os momentos em que os participantes do evento podem competir entre si para ganhar prêmios.",
-            "Cada competição possui regras e prêmios específicos que serão anúnciados previamente e lidos ao vivo em sua abertura. Os participantes que se inscreverem nas competições receberão convites para a plataforma Discord, onde ocorrerão as formações de equipes e a competição em si.",
-            "Os participantes poderão fazer equipes com conhecidos ou poderão solicitar que a organização da competição os ajude a formar uma equipe."
-        ]
-    },
-    {
-        "title": "Me inscrevi em uma competição. E agora?",
-        "answers": [
-            "Após se inscrever em uma competição, enviaremos por e-mail as orientações e o convite para o servidor do Discord que abrigará a competição.",
-            "Caso você deseje apenas assistir a competição, basta não entrar no servidor do Discord. No entanto, você não poderá concorrer aos prêmios ou participar dos desafios.",
-            "Caso você deseje montar uma equipe e competir, a organização da competição te ajudará com o processo. Depois disso, é só seguir as regras, datas e horários e dar o seu melhor!"
+            "Para validar sua presença, você precisa preencher os formulários na plataforma Google Forms que iremos disponibilizar nos 15 primeiros e nos 15 últimos minutos de cada atividade.",
+            "O primeiro formulário representa a sua \"entrada\" na atividade. O segundo representa a sua \"saída\". Para que possamos confirmar que você participou da atividade, é necessário que você responda os dois.",
+            "Os formulários serão anúnciados nas transmissões ao vivo e enviados nos chats pela equipe da HackoonWeek."
         ]
     },
     {
         "title": "Minha dúvida não está listada aqui... O que eu faço?",
         "answers": [
-            "Mande um e-mail ou mensagem pra gente! Estamos correndo bastante para trazer um evento bacana para vocês, mas ao máximo possível iremos te responder e ajudar nas suas dúvidas!"
+            "Mande um e-mail ou mensagem pra gente em hackoonspace@gmail.com. Estamos correndo bastante para trazer um evento bacana para vocês, mas ao máximo possível iremos te responder e ajudar nas suas dúvidas!"
         ]
     }
 ]
