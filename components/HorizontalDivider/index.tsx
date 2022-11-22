@@ -4,7 +4,7 @@ export default function HorizontalDivider () {
             className='d-flex justify-content-center mx-auto'
             style={{
                 height: '2px',
-                maxWidth: '65%',
+                maxWidth: '35%',
                 color:  'rgb(235, 100, 140)',
                 backgroundColor: 'rgb(235, 100, 140)',
                 marginTop: 48,

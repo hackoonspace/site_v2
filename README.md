@@ -1,5 +1,6 @@
 # TODO:
-- ver mais projetos pra colocar no projects
+- redirecionar dns
+- pegar ideias do site do caruso
 
 ## com ajuda da equipe jr
 - perguntas do faq do hackoon
@@ -8,5 +9,8 @@
 - link de botao de inscricoes
 
 ## opcional
-- colocar mais coisas na home
 - se tiver competições e sorteios, adicionar no faq da hackoonweek
+
+## Futuro
+- Colocar componente ou página para inscrições
+- precisamos de mais playlists de conteúdo ou outros links pra colocar em "projetos" e colocar mais links de projetos

@@ -26,7 +26,7 @@ const ScrollTop = () => {
         {
             showButton ?
             <div className='scroll-container' onClick={scrollToTop}>
-                <FontAwesomeIcon className='scroll-icon' icon={faAngleDoubleUp}/>
+                <FontAwesomeIcon style={{maxHeight: 16}} className='scroll-icon' icon={faAngleDoubleUp}/>
             </div>
             : ''
         }

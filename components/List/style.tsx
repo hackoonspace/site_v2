@@ -42,7 +42,7 @@ export default css`
     }
 
     .list-anchor-text {
-        font-weight: bold;
+        font-weight: 150;
         color: #eb628be1;
     }
 

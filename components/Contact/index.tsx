@@ -38,6 +38,11 @@ function Contact({ id }: Props) {
 								<Image className="contatoImg interactiveImg" height='80' width='80' alt="Logo do LinkedIn" src="/linkedin.png" />
 							</a>
 						</div>
+						<div className="col-sm">
+							<a href="https://github.com/hackoonspace" target="_blank" rel="noreferrer" title="Github">
+								<Image className="contatoImg interactiveImg" height='80' width='80' alt="Logo do Github" src="/github.png" />
+							</a>
+						</div>
 					</div>
 					<h4 className='mt-4'>E-mail: <a className='link' href="mailto:hackoonspace@gmail.com">hackoonspace@gmail.com</a></h4>
 				</div>
