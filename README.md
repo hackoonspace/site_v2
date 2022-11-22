@@ -1,16 +1,19 @@
-# TODO:
-- redirecionar dns
-- pegar ideias do site do caruso
+# Site do HackoonSpace - v2.0
 
-## com ajuda da equipe jr
-- perguntas do faq do hackoon
+Sergunda versão do site para a entidade HackoonSpace, feita com React.js, Next.js e TypeScript.
 
-## com ajuda do fer ?
-- link de botao de inscricoes
+## TODO
+- Escrever perguntas e respostas do FAQ do Hackoon
+- Colocar link de inscrições para HackoonWeek
+- Preencher palestras da HackoonWeek
+- Criar componente/página para inscrições
+- Ter mais playlists de conteúdo para "projetos"
 
-## opcional
-- se tiver competições e sorteios, adicionar no faq da hackoonweek
+### Opcional
+- Documentar competições e sorteios da HackoonWeek
+- Pegar ideias do protótipo original de site v2.0
 
-## Futuro
-- Colocar componente ou página para inscrições
-- precisamos de mais playlists de conteúdo ou outros links pra colocar em "projetos" e colocar mais links de projetos
+## Autores
+- [Marcus Natrielli](https://github.com/InfiniteMarcus)
+- [Bruno Carrazza](https://github.com/Carrazza)
+- [Fernando Abromovick](https://github.com/kyleflick124)
