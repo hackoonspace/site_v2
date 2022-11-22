@@ -309,11 +309,11 @@ h5 {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #a728ac; 
+    background: rgb(235, 100, 140); 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #c840cc;
+    background: rgb(186, 81, 113);
 }
 
 .page-count {
@@ -325,12 +325,13 @@ h5 {
 }
 
 .page-button {
-    padding: 6px;
+    padding: 5px 35px;
     color: white;
     border-radius: 5px;
     font-family: 'VT323';
     font-size: 22px;
     background-color: #a828ac9b;
+    max-width: 50%;
 }
 
 .page-button:hover {
@@ -341,6 +342,10 @@ h5 {
     .spaceBorder {
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .page-button {
+        padding: 0;
     }
 }
 

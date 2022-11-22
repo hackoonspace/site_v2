@@ -59,10 +59,10 @@ export default function Projects() {
                             <p className='page-count mt-2'>
                                 {pageNumber}/{numPages}
                             </p>
-                            <div className='d-flex justify-content-center gap-3 mt-2'>
-                                <button onClick={leftPage} className='page-button'>Anterior</button>
-                                <button onClick={changeZoom} className='page-button'>Zoom</button>
-                                <button onClick={rightPage} className='page-button'>Próximo</button>
+                            <div className='d-flex row justify-content-center gap-3 mt-2 mx-auto'>
+                                <button onClick={leftPage} className='col-md page-button'>Anterior</button>
+                                <button onClick={changeZoom} className='col-md page-button'>Zoom</button>
+                                <button onClick={rightPage} className='col-md page-button'>Próximo</button>
                             </div>
                         </div>
                     </Document>
