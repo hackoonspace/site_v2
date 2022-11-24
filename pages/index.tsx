@@ -1,4 +1,4 @@
-import { Head, Navbar, ScrollTop, Contact, Footer, Panel } from '../components';
+import { Head, Navbar, ScrollTop, Contact, Footer, Panel, Supporters } from '../components';
 
 export default function Home() {
   return (
@@ -27,6 +27,7 @@ export default function Home() {
         />
         <ScrollTop />
         <Contact id='contact' />
+        <Supporters title='Parceiros' data='hackoonspace.json' />
         <Footer/>
       </main>
     </>

@@ -1,0 +1,85 @@
+[
+    {
+        "title": "Qual é o objetivo da extensão de vocês?",
+        "answers": [
+            "Nosso objetivo com esta atividade é:",
+            "- Trazer conhecimento sobre hacking e cibersegurança para os alunos da graduação de Ciência da Computação e demais interessados, dentro e fora da UFSCar",
+            "- Realizar encontros semanais sobre temas relacionados a computação, como criptografia, proteção contra injeção de código, hacking artístico, código aberto e licenças de software, hardware, e mais",
+            "- Abrir um espaço para que os participantes desenvolvam seus próprios artigos e projetos relacionados com o mundo hacker",
+            "- Publicar uma <a class='link' href='/projects' target='__blank' rel='noreferrer'>revista técnica</a>, ao final da atividade, que divulgue todos os artigos e projetos realizados durante a mesma"
+        ]
+    },
+    {
+        "title": "Como funciona a extensão do Hackoon?",
+        "answers": [
+            "A nossa atividade funciona assim:",
+            "- Todo ano, temos dois períodos de extensão, um para cada semestre (geralmente coincide com o semestre letivo da UFSCar)",
+            "- No começo de cada, abrimos o período de inscrições com um formulário para você preencher seus dados, temas que mais quer ver na extensão, etc. Você fica livre para escolher os semestres quer participar (apenas um ou os dois)",
+            "- Após isso, enviaremos um e-mail com detalhes sobre os dias dos encontros semanais e outras informações relevantes",
+            "- Ao longo dos semestres, você poderá participar dos encontros e interagir com os demais participantes (ainda que não seja obrigatório)",
+            "- Ao final do semestre, para validar sua participação, você deverá entregar um artigo ou projeto hacker que se encaixe com a proposta da atividade"
+        ]
+    },
+    {
+        "title": "Como eu me inscrevo nela?",
+        "answers": [
+            "Para se inscrever, é só se ligar no nosso site e nas redes sociais do Hackoon. Estaremos sempre avisando sobre os próximos momentos de inscrição.",
+            "Quando eles chegarem, basta preencher seus dados no formulário que vamos disponibilizar e ficar de olho no seu e-mail."
+        ]
+    },
+    {
+        "title": "Qual é a diferença entre fazer artigo e projeto?",
+        "answers": [
+            "A diferença básica entre eles é:",
+            "- <span class='styled-strong'>Artigos</span> são textos escritos sobre um determinado tema, contendo introdução, desenvolvimento, conclusão e referências. São mais voltados a quem prefere pesquisar e dissertar",
+            "- <span class='styled-strong'>Projetos</span> são aplicações voltadas a quem prefere por a mão na massa e desenvolver um código, sistema, circuito eletrônico ou relativo",
+            "Ou seja, um é mais escrito e o outro é mais prático.",
+            "Você é totalmente livre para escolher fazer o que preferir (ou fazer ambos, ou mais de um artigo, mais de um projeto, etc)."
+        ]
+    },
+    {
+        "title": "Qual deve ser o tema do artigo/projeto? Preciso fazer muita coisa?",
+        "answers": [
+            "O Hackoon dá bastante liberdade para o desenvolvimento dos artigos e projetos.",
+            "Assim sendo, o tema e o escopo do que você irá produzir são determinados por você (ou seu grupo).",
+            "A organização da atividade poderá fazer críticas, sugestões e apontamos, dependendo se sua produção estiver fugindo muito do objetivo do Hackoon ou tiver problemas."
+        ]
+    },
+    {
+        "title": "Posso reaproveitar o trabalho de uma disciplina como artigo/projeto?",
+        "answers": [
+            "De acordo com o regimento de atividades de extensão da UFSCar, você <span class='styled-strong>não</span> pode reutilizar o trabalho feito em uma atividade acadêmica em outra. Isso inclui disciplinas, atividades de extensão e mais.",
+            "Entretanto, você pode produzir algo derivado ou inspirado. Por exemplo: se em uma matéria você fez uma pesquisa sobre XSS, você pode utilizá-la como base para criar um projeto no Hackoon."
+        ]
+    },
+    {
+        "title": "O que eu ganho participando da atividade?",
+        "answers": [
+            "Ao participar da extensão do Hackoon, você ganha um certificado de participação que pode ser validado em troca de créditos complementares <span class='styled-strong'>ou</span> de extensão.",
+            "Dessa forma, participar contribui com seu processo de formação na universidade.",
+            "Além disso, claro, você ganha todo o conhecimento e experiências dos nossos encontros e da realização do seu artigo/projeto!"
+        ]
+    },
+    {
+        "title": "Como eu garanto meu certificado de participação?",
+        "answers": [
+            "O certificado de participação é fornecido a todos os participantes da nossa extensão que tenham apresentado e entregue pelo menos:",
+            "- um artigo/projeto completo em pelo menos um semestre",
+            "- um artigo/projeto incompleto em um semestre mas completo no seguinte",
+            "Ou seja, basta você produzir algo que seja validado pela organização da atividade. Assim, você receberá seu certificado muito em breve."
+        ]
+    },
+    {
+        "title": "O certificado vale quantos créditos?",
+        "answers": [
+            "Atualmente, nosso certificado equivale a 45 horas (3 créditos na UFSCar) de participação em atividades de extensão por semestre.",
+            "Assim, se você participar da extensão do Hackoon por um ano completo, você receberá um certificado de 90 horas (6 créditos na UFSCar)."
+        ]
+    },
+    {
+        "title": "A atividade do Hackoon é complementar ou de extensão?",
+        "answers": [
+            "Nossa atividade é de extensão. Porém, o certificado gerado ao final dela também pode ser validado para receber créditos complementares."
+        ]
+    }
+]

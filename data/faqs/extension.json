@@ -2,61 +2,70 @@
     {
         "title": "O que é uma atividade de extensão?",
         "answers": [
-            "Em construção"
+            "Atividades de extensão são atividades voltadas a estender o conhecimento dos alunos universitários e trazer um retorno para a sociedade.",
+            "Elas são parte essencial do Plano Nacional de Educação, sendo necessários para sua formação na UFSCar.",
+            "A quantidade de atividades realizadas para se formar varia de acordo com o curso que você está matriculado.",
+            "Demais informações podem ser encontradas no site da <a class='link' href='https://www.proex.ufscar.br/' target='__blank' rel='noreferrer'>ProEx</a> ou com a coordenação do seu curso."
         ]
     },
     {
-        "title": "O que é o PROEX?",
+        "title": "O que é o ProEx?",
         "answers": [
-            "Em construção"
+            "A Pró-reitoria de Extensão é o órgão que gere as atividades de extensão da UFSCar.",
+            "É ela que cria as regras das atividades e publica os editais e documentos vitais para o funcionamento da nossa extensão.",
+            "Por conta disso, todo o formato da extensão do Hackoon é pensado e moldado para atender às determinações da ProEx. Futuras alterações estão inclusas!",
+            "É bem provável que você veja a logo e o nome dela nos nossos certificados ;)"
         ]
     },
     {
-        "title": "Como eu me inscrevo na atividade?",
+        "title": "O que é uma atividade complementar?",
         "answers": [
-            "Em construção"
+            "Atividades complementares são atividades voltadas a complementar o conhecimento e desenvolver os alunos universitários, sem necessariamente ter um retorno externo.",
+            "Elas também são necessárias para sua formação, tanto na UFSCar como em outras universidades, e sua quantidade também varia.",
+            "Complementar e extensão são coisas diferentes e na UFSCar você precisa realizar ambos.",
+            "Na teoria, uma atividade ser uma ou outra depende de como ela foi proposta, como seus participantes irão interagir com ela e como ela é regulamentada pela ProEx.",
+            "Na prática, a maioria das atividades é complementar. Algumas poucas, que tenham algum projeto resultado direto para a sociedade como um projeto ou pesquisa, são de extensão."
         ]
     },
     {
-        "title": "Como eu valido meus créditos de extensão?",
+        "title": "Como eu encontro uma atividade complementar/de extensão para participar?",
         "answers": [
-            "Em construção"
+            "A melhor forma de encontrar essas atividades é via mural, e-mail ou departamento de atividades da sua universidade, ou conversa com veteranos.",
+            "No caso da UFSCar, grande parte das atividades são ofertadas pelas entidades estudantis, como empresas júnior, centros acadêmicos e semanas do curso.",
+            "PORÉM, hoje é seu dia de sorte. Nós do Hackoon temos nossas próprias atividades para você participar!"
         ]
     },
     {
-        "title": "Qual é a diferença entre fazer artigo e projeto?",
+        "title": "Posso ganhar créditos complementares ou de extensão com o Hackoon?",
         "answers": [
-            "Em construção"
+            "Sim! Você pode ganhar ambos participando do HackoonSpace, em diversos momentos diferentes. Por exemplo, você pode:",
+            "- Participar da nossa atividade de extensão e ganhar créditos complementares/de extensão (você decide na hora de validar)",
+            "- Participar das atividades da HackoonWeek e ganhar créditos complementares",
+            "- Fazer parte da equipe/organização e ganhar créditos complementares/de extensão"
         ]
     },
     {
-        "title": "O que eu ganho participando da atividade?",
+        "title": "Participar da equipe ou da organização do Hackoon dá créditos?",
         "answers": [
-            "Em construção"
-        ]
-    },
-    {
-        "title": "O certificado vale quantos créditos de extensão?",
-        "answers": [
-            "Em construção"
-        ]
-    },
-    {
-        "title": "Participar da equipe ou da organização dá créditos?",
-        "answers": [
-            "Em construção"
+            "Sim. Participar da equipe e da organização fornece créditos de extensão (e complementares).",
+            "Para a equipe, é possível ganhar créditos ao organizar eventos, como a HackoonWeek, e organizar diversas outras atividades, como competições. Tudo desde que devidamente cadastrado e aprovado pela ProEx.",
+            "Para a organização, você recebe créditos ao gerir a atividade de extensão, além daqueles dados ao restante da equipe."
         ]
     },
     {
         "title": "Como eu valido meu certificado na UFSCar?",
         "answers": [
-            "Em construção"
+            "A validação do certificado da atividade de extensão do HackoonSpace deverá ser feita pelo departamento responsável pelo seu curso.",
+            "Por exemplo, para estudantes de Ciência da Computação, o processo é feito pelo DComp - Departamento de Computação.",
+            "<span class='styled-strong'>Importante:</span> Na UFSCar, as atividades de extensão podem ser validadas como complementares, se você desejar. O contrário <span class='styled-strong'>não</span> é verdadeiro."
         ]
     },
     {
-        "title": "Posso validar o certificado em outras universidades além da UFSCar?",
+        "title": "Posso validar o certificado em outros lugares além da UFSCar?",
         "answers": [
-            "Em construção"
+            "Certificados, do HackoonSpace ou não, podem ser validados em outros lugares, como outras universidades. Porém, fique atento às regras e regimentos deles para se adequar ao processo de validação.",
+            "Ainda que a sua universidade não aceite, não tem problema. Seu certificado não deixa de ser importante!",
+            "Você também pode postar ele no seu LinkedIn, no seu currículo ou mostrar pras pessoas seu nível de proatividade."
         ]
     }
 ]

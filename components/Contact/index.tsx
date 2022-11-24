@@ -15,32 +15,39 @@ function Contact({ id }: Props) {
 					<div className="row">
 						<div className="col-sm">
 							<a href="https://www.facebook.com/hackoonspace/" target="_blank" rel="noreferrer" title="Facebook">
-								<Image className="contatoImg interactiveImg" height='80' width='80' alt="Logo do Facebook" src="/facebook.png" />
+								<Image className="contatoImg interactiveImg" height='100' width='100' alt="Logo do Facebook" src="/facebook.png" />
 							</a>
 						</div>
 						<div className="col-sm">
 							<a href="https://twitter.com/HackoonSpace" target="_blank" rel="noreferrer" title="Twitter">
-								<Image className="contatoImg interactiveImg" height='80' width='80' alt="Logo do Twitter" src="/twitter.png" />
+								<Image className="contatoImg interactiveImg" height='100' width='100' alt="Logo do Twitter" src="/twitter.png" />
 							</a>
 						</div>
 						<div className="col-sm">
 							<a href="https://www.youtube.com/@hackoonspace" target="_blank" rel="noreferrer" title="Youtube">
-								<Image className="contatoImg interactiveImg" height='80' width='80' alt="Logo do Youtube" src="/youtube.png" />
+								<Image className="contatoImg interactiveImg" height='100' width='100' alt="Logo do Youtube" src="/youtube.png" />
 							</a>
 						</div>
 						<div className="col-sm">
 							<a href="https://www.instagram.com/hackoonspace" target="_blank" rel="noreferrer" title="Instagram">
-								<Image className="contatoImg interactiveImg" height='80' width='80'  alt="Logo do Instagram" src="/instagram.png" />
+								<Image className="contatoImg interactiveImg" height='100' width='100'  alt="Logo do Instagram" src="/instagram.png" />
 							</a>
 						</div>
+					</div>
+					<div className="row">
 						<div className="col-sm">
 							<a href="https://www.linkedin.com/company/hackoonspace/" target="_blank" rel="noreferrer" title="LinkedIn">
-								<Image className="contatoImg interactiveImg" height='80' width='80' alt="Logo do LinkedIn" src="/linkedin.png" />
+								<Image className="contatoImg interactiveImg" height='100' width='100' alt="Logo do LinkedIn" src="/linkedin.png" />
 							</a>
 						</div>
 						<div className="col-sm">
 							<a href="https://github.com/hackoonspace" target="_blank" rel="noreferrer" title="Github">
-								<Image className="contatoImg interactiveImg" height='80' width='80' alt="Logo do Github" src="/github.png" />
+								<Image className="contatoImg interactiveImg" height='100' width='100' alt="Logo do Github" src="/github.png" />
+							</a>
+						</div>
+						<div className="col-sm">
+							<a href="https://discord.gg/z5Vc9kRe8J" target="_blank" rel="noreferrer" title="Discord">
+								<Image className="contatoImg interactiveImg" height='100' width='100' alt="Logo do Discord" src="/discord.png" />
 							</a>
 						</div>
 					</div>

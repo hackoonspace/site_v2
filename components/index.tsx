@@ -6,7 +6,6 @@ export { default as Head } from './Head';
 export { default as HorizontalDivider } from './HorizontalDivider';
 export { default as List } from './List';
 export { default as Contact } from './Contact';
-export { default as Sponsors } from './Sponsors';
 export { default as Supporters } from './Supporters';
 export { default as Panel } from './Panel';
 export { default as Navbar } from './Navbar';

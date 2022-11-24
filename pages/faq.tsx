@@ -9,9 +9,14 @@ function FAQPage() {
             <div className='d-flex align-items-center justify-content-center mt-4'>
                 <Image priority src='/mini_qwerty2.png' alt='' width='250' height='250'/>
             </div>
-            <FAQ title='Dúvidas sobre o HackoonSpace' active data='hackoonspace.json' />
+            <FAQ title='Sobre o HackoonSpace' active data='hackoonspace.json' />
             <HorizontalDivider />
-            <FAQ title='Dúvidas sobre a atividade de extensão' data='extension.json' />
+            <FAQ title='Atividades de extensão e complementares' data='extension.json' />
+            <HorizontalDivider />
+            <div className='d-flex align-items-center justify-content-center mt-4'>
+                <Image priority src='/mini_qwerty1.png' alt='' width='250' height='250'/>
+            </div>
+            <FAQ title='Atividade do HackoonSpace' data='hackaextension.json' />
             <ScrollTop />
             <Footer />
         </>

@@ -145,21 +145,11 @@ button:hover, button:focus {
     object-fit: scale-down;
 }
 
-.patrocinadorImg {
-    max-width:  250px;
-    max-height: 250px;
-    object-fit: scale-down;
-}
-
-.patrocinadores {
-    padding: 40px 40px 50px;
-}
-
-.contato, .entidades {
+.contato, .supporters {
     padding: 20px 20px 30px;
 }
 
-.contato, .entidades, .patrocinadores {
+.contato, .supporters {
     position: relative;
     background: #060c21;
     border: 1px solid #000;
@@ -247,6 +237,10 @@ html, body, #root, .App {
 body, main { 
     height: 100vh; 
     margin:0; 
+}
+
+.styled-strong {
+    color: #eb628b;
 }
 
 .paragraph {

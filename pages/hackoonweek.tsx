@@ -26,7 +26,7 @@ export default function HackoonWeek() {
                 <Cronogram /> 
                 <Button text='Assista o evento aqui' size='bg' target='__blank' href='https://www.youtube.com/@hackoonspace'/>
                 {/* <Sponsors/> */}
-                <Supporters />
+                <Supporters title='Realização' data='hackoonweek.json' />
                 <FAQ title='FAQ do evento' active data='hackoonweek.json' />
                 <Footer/>
             </main>

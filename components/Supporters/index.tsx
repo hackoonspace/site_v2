@@ -1,16 +1,34 @@
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-import suppotersJson from '../../data/supporters.json';
+type Supporter = {
+	name: string;
+	href: string;
+	alt: string;
+	src: string;
+}
 
-function Supporters() {
+interface Props {
+	title: string;
+	data: string;
+}
+
+function Supporters({ title, data }: Props) {
+	const [supporters, setSupporters] = useState<Array<Supporter>>([]);
+
+    useEffect(() => {
+        const jsonData = require(`../../data/supporters/${data}`);
+        setSupporters(jsonData);
+    },[data]);
+
 	return ( 
 		<div style={{display: "flex", alignItems: "center", justifyContent: "center"}}>
 			<div className="spaceBorder">
-				<div className="entidades">
-					<h1 style={{color: 'white'}}>Realização</h1>
+				<div className="supporters">
+					<h1 style={{color: 'white'}}>{title}</h1>
 					<div className="row">
 						{
-							suppotersJson.map((supporter, index) => {
+							supporters.map((supporter, index) => {
 								return (
 									<div className="col-sm" key={`supporter-${index}`}>
 										<a href={supporter.href} target="_blank" rel="noreferrer">

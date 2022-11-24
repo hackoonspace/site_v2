@@ -3,7 +3,7 @@
 Sergunda versão do site para a entidade HackoonSpace, feita com React.js, Next.js e TypeScript.
 
 ## TODO
-- Escrever perguntas e respostas do FAQ do Hackoon
+- Terminar lista de parceiros
 - Colocar link de inscrições para HackoonWeek
 - Preencher palestras da HackoonWeek
 - Criar componente/página para inscrições
