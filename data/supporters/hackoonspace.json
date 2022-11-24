@@ -1,11 +1,5 @@
 [
     {
-        "name": "HackoonSpace",
-        "href": "https://hackoonspace.com",
-        "alt": "Logo do HackoonSpace",
-        "src": "/hackoonLogo.png"
-    },
-    {
         "name": "Maritacas GameDev",
         "href": "https://maritacas-gamedev.github.io/website/",
         "alt": "Logo da Maritacas GameDev",
