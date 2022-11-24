@@ -292,6 +292,10 @@ h5 {
     background-color: #cf41d4 !important;
 }
 
+.accordion-header > .collapsed:hover {
+    background-color: #cf41d4 !important;
+}
+
 .accordion-item {
     border: 1px solid white !important;
 }

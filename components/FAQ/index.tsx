@@ -11,10 +11,11 @@ type Question = {
 
 interface Props {
     title: string;
+    active?: boolean;
     data: string;
 }
 
-function FAQ({ title, data }: Props) {
+function FAQ({ title, active, data }: Props) {
     const [questions, setQuestions] = useState<Array<Question>>([]);
 
     useEffect(() => {
@@ -22,18 +23,21 @@ function FAQ({ title, data }: Props) {
         setQuestions(jsonData);
     },[data]);
 
+    const activeKey = active ? '0' : null;
+
     return (
         <div>
             <div className="spaceBorder">
                 <div className="faq-container">
                     <h2 className="faq-title">{title}</h2>
-                    <Accordion defaultActiveKey="0">
+                    <Accordion defaultActiveKey={activeKey}>
                         {
                             questions.map((question, index) => {
                                 return (
-                                    <>
+                                    <div key={`question-${data.replace('.json', '')}-${index}`}>
                                         <Accordion.Item 
-                                            eventKey={`${index}`} key={`question-${index}`}
+                                            eventKey={`${index}`} 
+                                            key={`index-${data.replace('.json', '')}-${index}`}
                                         >
                                             <Accordion.Header>
                                                 <span className='faq-question-title'>{question.title}</span>
@@ -42,16 +46,20 @@ function FAQ({ title, data }: Props) {
                                                 <div className='faq-body'>
                                                     {question.answers.map((answer, idx) => {
                                                         return (
-                                                            <p key={`answer-${idx}`} className='faq-question-answer'>
-                                                                {answer}
+                                                            <p 
+                                                                key={`answer-${data.replace('.json', '')}-${idx}`} 
+                                                                className='faq-question-answer' 
+                                                                dangerouslySetInnerHTML={ {__html: answer} }
+                                                            >
                                                             </p>
                                                         )
                                                     })}
                                                 </div>
                                             </Accordion.Body>
+                                            
                                         </Accordion.Item>
                                         {index < (questions.length - 1) ? <hr className="linhaDuvida"/> : ''}
-                                    </>
+                                    </div>
                                 )
                             })
                         }

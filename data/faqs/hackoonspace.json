@@ -1,8 +1,71 @@
 [
     {
-        "title": "Em construção",
+        "title": "O que é o HackoonSpace?",
         "answers": [
-            "Em construção"
+            "O Hackoon é um hackerspace criado em 2020 e ligado a Universidade Federal de São Carlos (UFSCar) - campus Sorocaba.",
+            "Nós também atuamos como entidade estudantil, atividade de extensão e comunidade hacker.",
+            "Nossas atividades, eventos e conteúdos são tanto para o meio acadêmico da UFSCar, quanto para todos que tiverem interesse em nos conhecer."
+        ]
+    },
+    {
+        "title": "O que é um hackerspace?",
+        "answers": [
+            "Hackerspaces são locais, geralmente físico, parecido com um laboratório comunitário. É um lugar para as pessoas se reunirem, trocarem ideias, fazerem projetos e se ajudarem.",
+            "Eles também são chamados de hackspaces, hacklabs e até mesmo makerspaces.",
+            "Nós, do Hackoon, somos um deles!"
+        ]
+    },
+    {
+        "title": "Hackers? Então vocês são criminosos? Podem hackear um Facebook pra mim?",
+        "answers": [
+            "Um erro muito comum é as pessoas associarem a ideia de 'hacker' com 'criminoso'.",
+            "Hacker, na verdade, é todo aquele que usa a tecnologia de uma forma não convencional. Seja alguém fazendo gambiarra para consertar o sinal da TV, um aluno de ensino médio criando um projeto de robótica, ou até mesmo um profissional de cibersegurança testando um sistema contra invasões.",
+            "Portanto, não somos criminosos. Nós gostamos muito de falar de segurança digital e temas relacionados, mas também gostamos de mostrar para as pessoas que computação e tecnologia podem ir muito além do que elas aprendem por aí.",
+            "Ah, e não. Nós não hackeamos Facebook, Instagram ou qualquer coisa parecida."
+        ]
+    },
+    {
+        "title": "Como eu participo do Hackoon?",
+        "answers": [
+            "É possível participar do HackoonSpace de várias formas diferentes:",
+            "- Você pode ser um dos nossos membros, entrando na nossa comunidade, participando dos encontros semanais, ajudando outros membros e compartilhando conhecimento",
+            "- Você pode participar da nossa atividade de extensão, criando artigos e projetos, divulgando eles na nossa revista técnica e ganhando certificados",
+            "- E você pode nos ajudar diretamente, entrando para a nossa equipe de apoio ou para a organização do Hackoon"
+        ]
+    },
+    {
+        "title": "Como eu me torno um membro?",
+        "answers": [
+            "É bem fácil! Você pode simplesmente entrar no nosso <a class='link' href='https://discord.gg/z5Vc9kRe8J' target='_blank' rel='noreferrer'>servidor do Discord</a>. Lá tem vários outros links e instruções sobre nossa comunidade!",
+            "Caso tenha algum problema ou dúvida, sinta-se livre para nos mandar uma mensagem nas redes sociais ou um e-mail para <a class='link' href='mailto:hackoonspace@gmail.com' target='_blank' rel='noreferrer'>hackoonspace@gmail.com</a>."
+        ]
+    },
+    {
+        "title": "Como eu faço parte da equipe/organização?",
+        "answers": [
+            "De tempos em tempos, nós abrimos períodos de inscrição para que nossos membros possam entrar na equipe e, se desejarem, na organização do Hackoon."
+        ]
+    },
+    {
+        "title": "Qual é a diferença entre equipe e organização?",
+        "answers": [
+            "A equipe é o grupo de pessoas que gerencia o HackoonSpace. Seja no ajudando no marketing, criação de conteúdo, planejamento de eventos ou no que mais for necessário na nossa comunidade.",
+            "A organização é uma das partes da equipe, a qual é responsável por cuidar da nossa atividade de extensão e organizar o hackerspace como um todo (inclusive os membros da própria equipe)."
+        ]
+    },
+    {
+        "title": "Quem pode participar dos encontros semanais?",
+        "answers": [
+            "Todos podem participar, mesmo não sendo inscritos na atividade de extensão, alunos de Ciência da Computação ou membros do HackoonSpace. Não temos nenhum tipo de limitação quanto a isso.",
+            "Porém, a preferência para apoiar e atender dos participantes dos encontros é voltada para os nossos membros. Por isso, convidamos você a fazer parte do Hackoon!!!"
+        ]
+    },
+    {
+        "title": "Preciso de algum conhecimento prévio para participar?",
+        "answers": [
+            "Um dos mais importantes pilares do Hackoon é: nós abraçamos pessoas com os mais diveros níveis de conhecimento.",
+            "Logo, você pode participar da nossa comunidade e das nossas atividades, inclusive a de extensão, sem saber nada!",
+            "Caso já saiba, convidamos você a compartilhar sua experiência, dicas e projetos com os demais membros :)"
         ]
     }
 ]
