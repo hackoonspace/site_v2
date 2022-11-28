@@ -23,7 +23,7 @@ export default function Home() {
               Aproveite a estadia aqui e conheça mais do nosso trabalho!
             </p>
           ]}
-          imgWidth={300}
+          imgWidth={250}
         />
         <ScrollTop />
         <Contact id='contact' />

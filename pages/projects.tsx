@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import { Document, Page } from 'react-pdf';
 import { Head, Navbar, HorizontalDivider, List, ScrollTop, Footer, Title } from '../components';
 import { useWindowSize } from '../utils/resizing';
@@ -30,6 +30,15 @@ export default function Projects() {
         setZoom(!zoom);
     }
 
+    const updatePage = (event: ChangeEvent<HTMLInputElement>) => {
+        const newPage = Number(event.target.value);
+
+        if (isNaN(newPage) || newPage < 0 || newPage > (numPages || 1))
+            return;
+
+        setPageNumber(newPage);
+    }
+
     const pdfWidth = zoom ? Math.min((windowSize.width || 1000) * 0.9, 1000) : Math.min((windowSize.width || 450) * 0.9, 450);
 
     return (
@@ -49,15 +58,30 @@ export default function Projects() {
             <div className='d-flex align-items-center justify-content-center flex-column mt-5'>
                 <Title text='Revista mais recente'/>
                 <div style={{marginTop: 16}}>
-                    <Document file='/files/Revista_-_2021.pdf' onLoadSuccess={onDocumentLoadSuccess}>
+                    <Document 
+                        file='/files/Revista_-_2021.pdf' 
+                        onLoadSuccess={onDocumentLoadSuccess}
+                        loading='Carregando documento'
+                        error='Problema ao carregar o documento'
+                    >
                         <Page 
                             width={pdfWidth} 
                             pageNumber={pageNumber} 
+                            noData='Página não encontrada'
+                            loading='Carregando página'
+                            error='Problema ao carregar a página'
                             renderAnnotationLayer={false} renderTextLayer={false}
                         />
                         <div>
                             <p className='page-count mt-2'>
-                                {pageNumber}/{numPages}
+                                <input 
+                                    className='numeric-input'
+                                    type='number' 
+                                    step='1' 
+                                    value={pageNumber}
+                                    onChange={updatePage}
+                                />
+                                /{numPages}
                             </p>
                             <div className='d-flex row justify-content-center gap-3 mt-2 mx-auto'>
                                 <button onClick={leftPage} className='col-md page-button'>Anterior</button>
@@ -68,6 +92,7 @@ export default function Projects() {
                     </Document>
                 </div>
             </div>
+            <HorizontalDivider />
             <List 
                 title='Playlists de conteúdo'
                 description='Compilados de vídeos e lives passados do HackoonSpace'
@@ -77,6 +102,7 @@ export default function Projects() {
                     { title: 'Debates', href: 'https://www.youtube.com/watch?v=LsNiSnrzqq8&list=PLSYx7h5HkQPqPT1vgFMOadh84CZdn235O'}
                 ]}
             />
+            <HorizontalDivider />
             <List 
                 title='Guia para atividade de extensão'
                 description='Está interessado na nossa extensão? Ou quer apoiar o Hackoon com um artigo/projeto? Seguem alguns links para te ajudar'

@@ -25,6 +25,8 @@ export default css`
         font-size: 24px;
         color: white;
         width: 100%;
+        text-align: center;
+        hyphen: auto;
     }
 
     .faq-body {
@@ -38,7 +40,7 @@ export default css`
     .faq-question-answer {
         color: white;
         font-family: 'VT323';
-        font-size: 24px;
+        font-size: 22px;
         margin-bottom: 0;
     }
 `;

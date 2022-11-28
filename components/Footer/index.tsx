@@ -5,7 +5,7 @@ import linkJson from '../../data/links.json';
 export default function Footer() {
 	return ( 
         <div>
-            <footer className="row d-flex justify-content-center mb-4 gap-2 w-100">
+            <footer className="row d-flex justify-content-center mb-4 gap-2 w-100 mx-auto">
                 {
                     linkJson.map((link, index) => {
                         return (

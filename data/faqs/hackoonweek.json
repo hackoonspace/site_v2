@@ -2,7 +2,7 @@
     {
         "title": "Onde o evento será realizado?",
         "answers": [
-            "A HackoonWeek 2022 será realizado em formato totalmente online, com transmissão no canal do Youtube do HackoonSpace"
+            "A HackoonWeek 2022 será realizada em formato totalmente online, com transmissão no <a class='link' href='https://youtube.com/@hackoonspace' target='_blank' rel='noreferrer'>canal do Youtube</a> do HackoonSpace."
         ]
     },
     {
@@ -15,7 +15,7 @@
     {
         "title": "Como posso participar?",
         "answers": [
-            "Para participar, é necessário se inscrever no formulário do Google disponibilizado aqui no nosso site",
+            "Para participar, é necessário se inscrever no formulário do Google disponibilizado aqui no nosso site.",
             "Lá você deverá preencher suas informações e selecionar as atividades que você tem interesse! Nos dias e horários correspondentes, a atividade será transmitida no Youtube e você poderá interagir com os palestrantes, a equipe do evento e os demais participantes."
         ]
     },
@@ -44,7 +44,7 @@
     {
         "title": "Minha dúvida não está listada aqui... O que eu faço?",
         "answers": [
-            "Mande um e-mail ou mensagem pra gente em hackoonspace@gmail.com. Estamos correndo bastante para trazer um evento bacana para vocês, mas ao máximo possível iremos te responder e ajudar nas suas dúvidas!"
+            "Mande um e-mail ou mensagem pra gente em <a class='link' href='mailto:hackoonspace@gmail.com' target='_blank' rel='noreferrer'>hackoonspace@gmail.com</a>. Estamos correndo bastante para trazer um evento bacana para vocês, mas ao máximo possível iremos te responder e ajudar nas suas dúvidas!"
         ]
     }
 ]

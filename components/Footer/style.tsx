@@ -13,7 +13,7 @@ export default css`
         padding-right: 15px;
     }
 
-    footer div a{
+    footer div a {
         padding: 1px;
         background-color: #170d5183;
     }

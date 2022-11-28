@@ -1,6 +1,6 @@
 # Site do HackoonSpace - v2.0
 
-Sergunda versão do site para a entidade HackoonSpace, feita com React.js, Next.js e TypeScript.
+Segunda versão do site para a entidade HackoonSpace, feita com React.js, Next.js e TypeScript.
 
 ## TODO
 - Terminar lista de parceiros

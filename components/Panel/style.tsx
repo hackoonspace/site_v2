@@ -88,7 +88,7 @@ export default css`
 
     @media (max-width: 768px) {
         .logo {
-            width: 100%;
+            max-width: 80%;
         }
     }
 `;

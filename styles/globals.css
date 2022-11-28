@@ -24,6 +24,10 @@ html, body {
     box-sizing: border-box;
 }
 
+p {
+    hyphens: auto;
+}
+
 .link {
     color: inherit;
     text-decoration: none;
@@ -336,10 +340,25 @@ h5 {
     background: #c740cca4;
 }
 
+.numeric-input {
+    width: 55px;
+    height: 30px;
+    color: black;
+    border-radius: 5px;
+    border: 0;
+    margin-right: 5px;
+}
+
+.react-pdf__message {
+    color: white;
+    font-family: 'VT323';
+    text-align: center;
+    font-size: 26px;
+}
+
 @media (max-width: 660px) {
     .spaceBorder {
-        margin-right: auto;
-        margin-left: auto;
+        min-width: 80%;
     }
 
     .page-button {
