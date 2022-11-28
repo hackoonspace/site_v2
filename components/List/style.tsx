@@ -18,7 +18,7 @@ export default css`
         border-radius: 5px;
         padding: 10px;
         margin-bottom: 6px;
-        font-size: 26px;
+        font-size: 22px;
         font-family: 'VT323';
     }
 
