@@ -1,0 +1,48 @@
+{
+    "magazines": [
+        {
+            "title": "Revista - edição 2019",
+            "href": "/files/Revista_-_2019.pdf"
+        },
+        {
+            "title": "Revista - edição 2020",
+            "href": "/files/Revista_-_2020.pdf"
+        },
+        {
+            "title": "Revista - edição 2021",
+            "href": "/files/Revista_-_2021.pdf"
+        }
+    ],
+    "contents": [
+        {
+            "title": "HackoonWeek 2020",
+            "href": "https://www.youtube.com/watch?v=AHOb6xl9p3M&list=PLSYx7h5HkQPoW5WIdgco9CC3nehcqJYD9"
+        },
+        {
+            "title": "HackoonWeek 2021",
+            "href": "https://www.youtube.com/watch?v=QirPzv4L1qQ&list=PLSYx7h5HkQPq3FyaGPbNyQf6GGhgV0akj"
+        },
+        {
+            "title": "Debates",
+            "href": "https://www.youtube.com/watch?v=LsNiSnrzqq8&list=PLSYx7h5HkQPqPT1vgFMOadh84CZdn235O"
+        }
+    ],
+    "extension": [
+        {
+            "title": "Como fazer artigos e projetos do Hackoon", 
+            "href": "https://drive.google.com/file/d/1XgK7N1jNAQZlCngcnfFFAqebvVYOwgJT/view?usp=sharing"
+        },
+        {
+            "title": "Metodologia da atividade",
+            "href": "https://drive.google.com/file/d/1vh1OEVg8hTyP9zycr7VYwlk7MUWgrih4/view?usp=sharing"
+        },
+        {
+            "title": "Template para projetos",
+            "href": "https://github.com/hackoonspace/Hackoonspace-template"
+        },
+        {
+            "title": "Template para artigos",
+            "href": "https://docs.google.com/document/d/1K0a9rRnaQLw8S4OEPLUzsHkiMlewEikI/edit?usp=share_link&ouid=116752840306989541290&rtpof=true&sd=true"
+        }
+    ]
+}

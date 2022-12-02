@@ -335,10 +335,13 @@ h5 {
     font-size: 22px;
     background-color: #a828ac9b;
     max-width: 50%;
+    text-decoration: none;
+    border: 2px solid black;
 }
 
 .page-button:hover {
     background: #c740cca4;
+    color: white;
 }
 
 .numeric-input {
@@ -355,6 +358,55 @@ h5 {
     font-family: 'VT323';
     text-align: center;
     font-size: 26px;
+}
+
+.list-item {
+    background-color: #060c21;
+    color: white;
+    font-family: 'VT323';
+    font-size: 22px;
+    padding: 0;
+}
+
+.list-item:hover {
+    background-color: #0d1a48;
+}
+
+.list-anchor {
+    padding: 10px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+.list-anchor-text {
+    font-weight: 150;
+    color: #eb628be1;
+}
+
+.list-anchor:hover {
+    transition: .1s linear;
+    color: #ffaec6e1;
+    text-decoration: underline;
+}
+
+.project-anchor {
+    border-radius: 0.375rem;
+    border: 0;
+    background-color: #060c21;
+}
+
+.project-anchor:hover, .project-anchor:active, .project-anchor:focus {
+    background-color: #0d1a48;
+}
+
+/* Fonte Awesome style override */
+.svg-inline--fa path {
+    color: white !important;
+}
+
+.fa-file-arrow-down:hover path {
+    color: #ffaec6e1 !important;
 }
 
 @media (max-width: 660px) {

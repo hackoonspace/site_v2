@@ -2,6 +2,7 @@ import css from'styled-jsx/css';
 
 export default css`
     .styled-title {
+        text-align: center;
         color: white;
         background-color: #c740cca4;
         border: 2px solid black;

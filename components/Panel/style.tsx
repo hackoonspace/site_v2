@@ -29,8 +29,8 @@ export default css`
     }
 
     .text::after {
-        content: " █ ";
-        font-size: 24px;
+        content: "█";
+        font-size: 28px;
         margin-left: 12px;
         display: inline-block;
         animation: cursor-blink 1.1s steps(2) infinite;

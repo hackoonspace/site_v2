@@ -1,15 +1,10 @@
 
 import ListStyle from './style';
 
-type ListItem = {
-    title: string;
-    href: string;
-}
-
 interface Props {
     title: string;
     description: string;
-    items: ListItem[]
+    items: JSX.Element[]
 }
 
 function List({title, description, items}: Props) {
@@ -21,17 +16,7 @@ function List({title, description, items}: Props) {
                     {description}
                 </p>
                 <ul className="list list-group">
-                    {
-                        items.map((item, index) => {
-                            return (
-                                <li key={`${title}-item-${index}`} className="list-item list-group-item">
-                                    <a className='list-anchor' target='__blank' href={item.href}>
-                                        <span className='list-anchor-text'>{item.title}</span>
-                                    </a>
-                                </li>
-                            )
-                        })
-                    }
+                    { items }
                 </ul>
             </div>
             <style jsx>

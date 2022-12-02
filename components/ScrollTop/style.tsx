@@ -21,8 +21,4 @@ export default css`
     .scroll-container:hover {
         background: #f44bfac0;
     }
-
-    .scroll-icon {
-        font-size: 20px;
-    }
 `;

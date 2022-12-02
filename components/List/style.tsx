@@ -21,34 +21,4 @@ export default css`
         font-size: 22px;
         font-family: 'VT323';
     }
-
-    .list-item {
-        background-color: #060c21;
-        color: white;
-        font-family: 'VT323';
-        font-size: 22px;
-        padding: 0;
-    }
-
-    .list-item:hover {
-        background-color: #0d1a48;
-    }
-
-    .list-anchor {
-        padding: 10px;
-        width: 100%;
-        display: block;
-        text-decoration: none;
-    }
-
-    .list-anchor-text {
-        font-weight: 150;
-        color: #eb628be1;
-    }
-
-    .list-anchor:hover {
-        transition: .1s linear;
-        color: #ffaec6e1;
-        text-decoration: underline;
-    }
 `;

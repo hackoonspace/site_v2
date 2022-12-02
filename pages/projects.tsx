@@ -2,8 +2,14 @@ import { ChangeEvent, useState } from 'react';
 import { Document, Page } from 'react-pdf';
 import { Head, Navbar, HorizontalDivider, List, ScrollTop, Footer, Title } from '../components';
 import { useWindowSize } from '../utils/resizing';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
+
+import projectsJson from '../data/projects.json';
+const { magazines, contents, extension } = projectsJson;
 
 export default function Projects() {
+    const [documentIndex, setDocumentIndex] = useState(0);
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
     const [zoom, setZoom] = useState(false);
@@ -39,6 +45,11 @@ export default function Projects() {
         setPageNumber(newPage);
     }
 
+    const changeDocument = (newIndex: number) => {
+        if (newIndex > -1 && newIndex < magazines.length)
+            setDocumentIndex(newIndex);
+    }
+
     const pdfWidth = zoom ? Math.min((windowSize.width || 1000) * 0.9, 1000) : Math.min((windowSize.width || 450) * 0.9, 450);
 
     return (
@@ -49,17 +60,38 @@ export default function Projects() {
             <List 
                 title='Revistas técnicas'
                 description='Compilados de artigos e projetos desenvolvidos durante a atividade de extensão semestral/anual do HackoonSpace, ligada a UFSCar - Sorocaba'
-                items={[
-                    { title: 'Revista - edição 2019', href: '/files/Revista_-_2019.pdf'},
-                    { title: 'Revista - edição 2020', href: '/files/Revista_-_2020.pdf'},
-                    { title: 'Revista - edição 2021', href: '/files/Revista_-_2021.pdf'}
-                ]}
+                items={
+                    magazines.map((magazine, index) => {
+                        return (
+                            <li key={`${magazine.title}-item-${index}`} className="list-item list-group-item" onClick={() => changeDocument(index)}>
+                                <button className='project-anchor list-anchor'>
+                                    <span 
+                                        style={{cursor: 'pointer'}} 
+                                        className='list-anchor-text'
+                                    >
+                                        {magazine.title}
+                                    </span>
+                                    <a target='__blank' href={magazine.href}>
+                                        <FontAwesomeIcon 
+                                            style={{
+                                                maxHeight: 22,
+                                                marginLeft: 10,
+                                                verticalAlign: 'text-bottom'
+                                            }} 
+                                            icon={faFileDownload} 
+                                        />
+                                    </a>
+                                </button>
+                            </li>
+                        )
+                    })
+                }
             />
             <div className='d-flex align-items-center justify-content-center flex-column mt-5'>
-                <Title text='Revista mais recente'/>
+                <Title text={magazines[documentIndex].title} />
                 <div style={{marginTop: 16}}>
                     <Document 
-                        file='/files/Revista_-_2021.pdf' 
+                        file={magazines[documentIndex].href} 
                         onLoadSuccess={onDocumentLoadSuccess}
                         loading='Carregando documento'
                         error='Problema ao carregar o documento'
@@ -96,22 +128,33 @@ export default function Projects() {
             <List 
                 title='Playlists de conteúdo'
                 description='Compilados de vídeos e lives passados do HackoonSpace'
-                items={[
-                    { title: 'HackoonWeek 2020', href: 'https://www.youtube.com/watch?v=AHOb6xl9p3M&list=PLSYx7h5HkQPoW5WIdgco9CC3nehcqJYD9'},
-                    { title: 'HackoonWeek 2021', href: 'https://www.youtube.com/watch?v=QirPzv4L1qQ&list=PLSYx7h5HkQPq3FyaGPbNyQf6GGhgV0akj'},
-                    { title: 'Debates', href: 'https://www.youtube.com/watch?v=LsNiSnrzqq8&list=PLSYx7h5HkQPqPT1vgFMOadh84CZdn235O'}
-                ]}
+                items={
+                    contents.map((content, index) => {
+                        return (
+                            <li key={`${content.title}-item-${index}`} className="list-item list-group-item">
+                                <a className='list-anchor' target='__blank' href={content.href}>
+                                    <span className='list-anchor-text'>{content.title}</span>
+                                </a>
+                            </li>
+                        )
+                    })
+                }
             />
             <HorizontalDivider />
             <List 
                 title='Guia para atividade de extensão'
                 description='Está interessado na nossa extensão? Ou quer apoiar o Hackoon com um artigo/projeto? Seguem alguns links para te ajudar'
-                items={[
-                    { title: 'Como fazer artigos e projetos do Hackoon', href: 'https://drive.google.com/file/d/1XgK7N1jNAQZlCngcnfFFAqebvVYOwgJT/view?usp=sharing' },
-                    { title: 'Metodologia da atividade', href: 'https://drive.google.com/file/d/1vh1OEVg8hTyP9zycr7VYwlk7MUWgrih4/view?usp=sharing' },
-                    { title: 'Template para projetos', href: 'https://github.com/hackoonspace/Hackoonspace-template' },
-                    { title: 'Template para artigos', href: 'https://docs.google.com/document/d/1K0a9rRnaQLw8S4OEPLUzsHkiMlewEikI/edit?usp=share_link&ouid=116752840306989541290&rtpof=true&sd=true' }
-                ]}
+                items={
+                    extension.map((ext, index) => {
+                        return (
+                            <li key={`${ext.title}-item-${index}`} className="list-item list-group-item">
+                                <a className='list-anchor' target='__blank' href={ext.href}>
+                                    <span className='list-anchor-text'>{ext.title}</span>
+                                </a>
+                            </li>
+                        )
+                    })
+                }
             />
             <ScrollTop />
             <Footer/>
