@@ -7,12 +7,12 @@ export default css`
         align-items: center;
         justify-content: center;
         margin-right: auto;
-        margin-left:auto;
+        margin-left: auto;
     }
 
     .palestra {
-        height:max-content;
-        display:block;
+        height: max-content;
+        display: block;
         background-color: #170d5199;
         border: 2px solid rgb(34, 226, 252); 
         border-radius: 10px;

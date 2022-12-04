@@ -18,6 +18,7 @@ export default css`
         border-radius: 10px;
         border: 2px solid cyan;
         background-color: rgba(200, 200, 200, 0.2);
+        width: 75%
     }
 
     .buttonbox {
