@@ -21,11 +21,13 @@ function Presentation ({ title, description, host, hour, image }: Props) {
 					<div className="horarioTitulo">
 						<div>
 							<div>
-								<span> Evento: <span className="dadosPalestra">{title}</span> {hour} </span>
+								<span> Evento: <span className="dadosPalestra">{title}</span> Horário: {hour} </span>
 							</div>
 							<div>
 								<span> Host: 
-									<span className="dadosPalestra"> {host} </span>
+									<span className="dadosPalestra"> 
+										{host} 
+									</span>
 								</span>
 							</div>
 						</div>

@@ -3,10 +3,17 @@
         "day": "12/11",
         "presentations": [
             {
+                "title": "Em breve",
+                "description": "Em breve",
+                "host": "Em breve",
+                "hour": "19h - 20h15",
+                "image": "/HackoonEstampa.webp"
+            },
+            {
                 "title": "Aguarde",
                 "description": "Aguarde",
-                "host": "Host",
-                "hour": "Horário",
+                "host": "Em breve",
+                "hour": "20h45 - 22h",
                 "image": "/HackoonEstampa.webp"
             }
         ]
@@ -15,10 +22,17 @@
         "day": "13/11",
         "presentations": [
             {
+                "title": "Em breve",
+                "description": "Em breve",
+                "host": "Em breve",
+                "hour": "19h - 20h15",
+                "image": "/HackoonEstampa.webp"
+            },
+            {
                 "title": "Aguarde",
                 "description": "Aguarde",
-                "host": "Host",
-                "hour": "Horário",
+                "host": "Em breve",
+                "hour": "20h45 - 22h",
                 "image": "/HackoonEstampa.webp"
             }
         ]
@@ -27,10 +41,17 @@
         "day": "14/11",
         "presentations": [
             {
+                "title": "Em breve",
+                "description": "Em breve",
+                "host": "Em breve",
+                "hour": "19h - 20h15",
+                "image": "/HackoonEstampa.webp"
+            },
+            {
                 "title": "Aguarde",
                 "description": "Aguarde",
-                "host": "Host",
-                "hour": "Horário",
+                "host": "Em breve",
+                "hour": "20h45 - 22h",
                 "image": "/HackoonEstampa.webp"
             }
         ]
@@ -39,10 +60,17 @@
         "day": "15/11",
         "presentations": [
             {
+                "title": "Em breve",
+                "description": "Em breve",
+                "host": "Em breve",
+                "hour": "19h - 20h15",
+                "image": "/HackoonEstampa.webp"
+            },
+            {
                 "title": "Aguarde",
                 "description": "Aguarde",
-                "host": "Host",
-                "hour": "Horário",
+                "host": "Em breve",
+                "hour": "20h45 - 22h",
                 "image": "/HackoonEstampa.webp"
             }
         ]
@@ -51,10 +79,17 @@
         "day": "16/11",
         "presentations": [
             {
+                "title": "Em breve",
+                "description": "Em breve",
+                "host": "Em breve",
+                "hour": "19h - 20h15",
+                "image": "/HackoonEstampa.webp"
+            },
+            {
                 "title": "Aguarde",
                 "description": "Aguarde",
-                "host": "Host",
-                "hour": "Horário",
+                "host": "Em breve",
+                "hour": "20h45 - 22h",
                 "image": "/HackoonEstampa.webp"
             }
         ]
