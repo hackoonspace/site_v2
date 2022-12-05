@@ -10,5 +10,11 @@
         "href": "https://www.instagram.com/ca_pata_do_bisao/",
         "alt": "Logo do Centro Acadêmico de Ciência da Computação da UFSCar Sorocaba",
         "src": "/CA.png"
+    },
+    {
+        "name": "Projeto Hanna",
+        "href": "https://projecthanna.com",
+        "alt": "Logo do Projeto Hanna",
+        "src": "/ProjetoHanna.png"
     }
 ]

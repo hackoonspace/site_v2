@@ -3,17 +3,21 @@
 Segunda versão do site para a entidade HackoonSpace, feita com React.js, Next.js e TypeScript.
 
 ## TODO
-- Colocar regulamento de sorteios:
-    -> Vouchers
-    -> Brinde da Hanna
-- Terminar lista de parceiros
+
+### HackoonWeek
+- criar componente com lista de coisas a serem sorteadas
+
+- Colocar regulamento e prêmio das competições:
+    -> CTF
+    -> Hackathon
+
 - Colocar link de inscrições para HackoonWeek
 - Preencher palestras da HackoonWeek
+
+### Outros
 - Criar componente/página para inscrições
-- Ter mais playlists de conteúdo para "projetos"
 
 ### Opcional
-- Documentar competições e sorteios da HackoonWeek
 - Pegar ideias do protótipo original de site v2.0
 
 ## Autores

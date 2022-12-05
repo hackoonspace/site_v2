@@ -25,10 +25,24 @@ export default function Home() {
           ]}
           imgWidth={250}
         />
-        <ScrollTop />
+        <ScrollTop />        
         <Contact id='contact' />
+        <div className='twitter-list'>
+          <a 
+            data-width='600' 
+            data-height='800' 
+            data-lang='pt'
+            data-tweet-limit='3'
+            data-theme='dark'
+            className='twitter-timeline' 
+            href='https://twitter.com/HackoonSpace?ref_src=twsrc%5Etfw'
+          >
+            Tweets do HackoonSpace
+          </a> 
+        </div>
         <Supporters title='Parceiros' data='hackoonspace.json' />
         <Footer/>
+        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
       </main>
     </>
   )

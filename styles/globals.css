@@ -409,6 +409,19 @@ h5 {
     color: #ffaec6e1 !important;
 }
 
+.twitter-list {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 45px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+    padding: 10px;
+}
+
 @media (max-width: 660px) {
     .spaceBorder {
         min-width: 95%;
