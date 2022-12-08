@@ -34,7 +34,7 @@ export default function Home() {
             data-lang='pt'
             data-tweet-limit='3'
             data-theme='dark'
-            className='twitter-timeline' 
+            className='link twitter-timeline' 
             href='https://twitter.com/HackoonSpace?ref_src=twsrc%5Etfw'
           >
             Tweets do HackoonSpace
