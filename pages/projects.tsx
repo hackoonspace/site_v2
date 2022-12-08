@@ -9,7 +9,7 @@ import projectsJson from '../data/projects.json';
 const { magazines, contents, extension } = projectsJson;
 
 export default function Projects() {
-    const [documentIndex, setDocumentIndex] = useState(0);
+    const [documentIndex, setDocumentIndex] = useState(magazines.length ? (magazines.length - 1) : 0);
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
     const [zoom, setZoom] = useState(false);
