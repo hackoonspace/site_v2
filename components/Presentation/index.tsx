@@ -33,7 +33,7 @@ function Presentation ({ title, description, host, hour, image, contacts }: Prop
 								<span> Host: <span className="dadosPalestra"> {host} </span></span>
 							</div>
 							{
-								contacts ? 
+								contacts && contacts.length ? 
 								<Dropdown title='Contato' items={contacts} />
 								: ''
 							}

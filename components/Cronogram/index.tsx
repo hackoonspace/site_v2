@@ -17,7 +17,6 @@ export default function Cronogram() {
 
 	function updatePresentationsByDay(day: number) {
 		const { presentations } = CronogramJson[day];
-
 		const newPresentations = presentations.map((presentation, index) => {
 			return (
 				<Presentation 

@@ -109,7 +109,8 @@
                 "description": "Neste evento, os competidores terão que desenvolver uma solução, em formato de software/programa de computador, para um certo desafio com tema. Após isso, nosso time de jurados decidirá a equipe vencedora baseada em alguns critérios. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
-                "image": "/hackathon.webp"
+                "image": "/hackathon.webp",
+                "contacts": []
             },
             {
                 "title": "Resultados do Hackathon + sorteios",
