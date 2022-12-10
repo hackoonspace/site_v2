@@ -166,7 +166,7 @@ button:hover, button:focus {
     align-items: center;
     justify-content: center;
     display: flex;
-    max-width: 65%;
+    max-width: 750px;
     border-radius: 10px;
     text-align: center;
     margin-top: 45px;
@@ -422,7 +422,7 @@ h5 {
 
 @media (max-width: 660px) {
     .spaceBorder {
-        min-width: 95%;
+        max-width: 90%;
     }
 
     .page-button {

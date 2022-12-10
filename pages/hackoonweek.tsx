@@ -35,7 +35,7 @@ export default function HackoonWeek() {
                 <div className='d-flex align-items-center justify-content-center mt-4'>
                     <Image priority src='/tanuki.webp' alt='' width='250' height='250'/>
                 </div>
-                <FAQ title='FAQ das competições' active data='competitions.json' />
+                <FAQ title='FAQ das competições' data='competitions.json' />
                 <Footer/>
             </main>
         </>
