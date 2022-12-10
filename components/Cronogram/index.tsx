@@ -8,20 +8,15 @@ export default function Cronogram() {
 	const [selectedDay, setSelectedDay] = useState(0);
 	const [selectedPresentations, setSelectedPresentations] = useState([
 		<div key='presentation-1'></div>, 
-		<div key='presentation-2'></div>, 
-		<div key='presentation-3'></div>
+		<div key='presentation-2'></div>
 	]);
 
 	function getButtonBackgroundColor(day: number) {
 		return day === selectedDay ?  { backgroundColor: "#f44bfac0" } : { };
 	}
 
-	function changeDay(newDay: number) {
-		setSelectedDay(newDay);
-	}
-
-	function updatePresentations() {
-		const { presentations } = CronogramJson[selectedDay];
+	function updatePresentationsByDay(day: number) {
+		const { presentations } = CronogramJson[day];
 
 		const newPresentations = presentations.map((presentation, index) => {
 			return (
@@ -31,6 +26,7 @@ export default function Cronogram() {
 					host={presentation.host}
 					hour={presentation.hour}
 					image={presentation.image}
+					contacts={presentation.contacts}
 					key={`presentation-${index}`}
 				/>
 			);
@@ -38,9 +34,14 @@ export default function Cronogram() {
 		setSelectedPresentations(newPresentations);
 	}
 
+	function changeDay(newDay: number) {
+		updatePresentationsByDay(newDay);
+		setSelectedDay(newDay);
+	}
+
 	useEffect(() => {
-		updatePresentations();
-	}, [selectedDay]);
+		updatePresentationsByDay(0);
+	}, []);
 
 	return (
 		<div className="palestraContainer mt-5">

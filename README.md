@@ -5,14 +5,11 @@ Segunda versão do site para a entidade HackoonSpace, feita com React.js, Next.j
 ## TODO
 
 ### HackoonWeek
-- criar componente com lista de coisas a serem sorteadas
-
+- Criar componente com lista de coisas a serem sorteadas
 - Colocar regulamento e prêmio das competições:
     -> CTF
     -> Hackathon
-
 - Colocar link de inscrições para HackoonWeek
-- Preencher palestras da HackoonWeek
 
 ### Outros
 - Criar componente/página para inscrições
