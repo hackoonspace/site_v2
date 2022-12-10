@@ -1,4 +1,4 @@
-import { Button, Head, Navbar, ScrollTop, Cronogram, Supporters, Footer, Panel, FAQ } from '../components';
+import { Button, Head, Navbar, ScrollTop, HorizontalDivider, Cronogram, Supporters, Footer, Panel, FAQ } from '../components';
 
 export default function HackoonWeek() {
     return (
@@ -24,12 +24,14 @@ export default function HackoonWeek() {
                         </p>
                     ]}
                 />
-                <Button text='Inscreva-se agora' size='bg' href=''/>
+                <Button text='Inscreva-se agora' size='bg' target='__blank' href='https://forms.gle/bp3p6WuvLXxeLm848'/>
                 <ScrollTop />
                 <Cronogram /> 
                 <Button text='Assista o evento aqui' size='bg' target='__blank' href='https://www.youtube.com/@hackoonspace'/>
                 <Supporters title='Realização' data='hackoonweek.json' />
                 <FAQ title='FAQ do evento' active data='hackoonweek.json' />
+                <HorizontalDivider />
+                <FAQ title='FAQ das competições' active data='competitions.json' />
                 <Footer/>
             </main>
         </>
