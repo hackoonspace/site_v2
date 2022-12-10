@@ -22,6 +22,14 @@
         ]
     },
     {
+        "title": "Como vão ser formadas as equipes? Tem limite de pessoas? Posso participar sozinho?",
+        "answers": [
+            "Nós formaremos as equipes de cada competição no horário de início delas, no servidor do Discord onde elas irão ocorrer. Por isso, tanto se você já tiver uma equipe quanto se não tiver, tudo será organizado lá.",
+            "Os limites de formação de grupos são: até 2 pessoas para o Hackathon e até 4 para o Capture The Flag.",
+            "Você pode participar sozinho também, caso queira."
+        ]
+    },
+    {
         "title": "O que é um Capture The Flag (CTF)?",
         "answers": [
             "Em breve."
@@ -30,13 +38,13 @@
     {
         "title": "Quais são as regras do CTF?",
         "answers": [
-            "As regras do CTF podem ser encontradas no edital "
+            "As regras do CTF podem ser encontradas no edital que escrevemos para vocês. <a class='link' href='/files/Regulamento_CTF.pdf' target='__blank'>Clique aqui para acessar!</a>"
         ]
     },
     {
-        "title": "Qual é a premiação do CTF?",
+        "title": "Qual é a prêmio do CTF?",
         "answers": [
-            "Em breve."
+            "O prêmio do CTF será um valor de R$ 100,00 que será dividido igualmente para todos os membros da equipe vencedora."
         ]
     },
     {
@@ -48,13 +56,13 @@
     {
         "title": "Quais são as regras do Hackathon?",
         "answers": [
-            "Em breve."
+            "As regras do Hackathon podem ser encontradas no edital que escrevemos para vocês. <a class='link' href='/files/Regulamento_Hackathon.pdf' target='__blank'>Clique aqui para acessar!</a>"
         ]
     },
     {
-        "title": "Qual é a premiação do Hackathon?",
+        "title": "Qual é a prêmio do Hackathon?",
         "answers": [
-            "Em breve."
+            "O prêmio do Hackathon será um valor de R$ 100,00 que será dividido igualmente para todos os membros da equipe vencedora."
         ]
     }
 ]
