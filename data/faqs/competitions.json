@@ -10,7 +10,11 @@
     {
         "title": "Como elas vão funcionar?",
         "answers": [
-            "Em breve."
+            "As competições da HackoonWeek irão acontecer da seguinte forma:",
+            "- Você deverá manifestar seu interesse em participar de uma (ou mais) delas no nosso <a class='link' href='https://forms.gle/bp3p6WuvLXxeLm848' target='__blank'>formulário de inscrição</a>",
+            "- Antes da competição que você se inscreveu, enviaremos um e-mail com o convite para o servidor do Discord no qual as competições serão realizadas",
+            "- Você precisa aceitar o convite e aguardar até o dia e horário da competição",
+            "- Quando chegar o tempo, os competidores deverão estar nos chats de voz do servidor aguardando pela formação das equipes e pelas demais orientações para realizar a competição (dicas, temas, explicações, ajudas, etc)"
         ]
     },
     {
@@ -32,7 +36,9 @@
     {
         "title": "O que é um Capture The Flag (CTF)?",
         "answers": [
-            "Em breve."
+            "Capture The Flags (Capture As Bandeiras) são competições nas quais os participantes procuram dados escondidos em algum sistema (as chamadas flags).",
+            "As flags podem estar escondidas em sites, arquivos, URLs, ou onde mais os organizadores do CTF desejarem. No caso do Hackoon, nós gostamos de colocar flags em lugares diversos, com dificuldades também variadas para permitir que todos possam encontrar pelo menos uma.",
+            "Ao final, a pessoa ou equipe que encontrou mais flags (ou obteve mais pontos) ganha."
         ]
     },
     {
@@ -50,7 +56,10 @@
     {
         "title": "O que é um Hackathon?",
         "answers": [
-            "Em breve."
+            "Hackathons são maratonas de programação e desenvolvimento de aplicações e soluções. A ideia é pegar algum tipo de situação e propor uma solução tecnológica para ele.",
+            "É uma competição bem focada em resolver problemas e construir softwares, principalmente utilizando ideias inovadoras e saindo da caixinha (por isso a relação com Hacking!)",
+            "Geralmente, o tema e os critérios de avaliação de um Hackathon são decididos pelos responsáveis pela competição, muitas vezes sendo revelados apenas durante a competição para não estragar a surpresa.",
+            "A solução mais bem avaliada pelos jurados é a vencedora."
         ]
     },
     {

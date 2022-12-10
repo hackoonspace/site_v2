@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { Button, Head, Navbar, ScrollTop, HorizontalDivider, Cronogram, Supporters, Footer, Panel, FAQ } from '../components';
 
 export default function HackoonWeek() {
@@ -31,6 +32,9 @@ export default function HackoonWeek() {
                 <Supporters title='Realização' data='hackoonweek.json' />
                 <FAQ title='FAQ do evento' active data='hackoonweek.json' />
                 <HorizontalDivider />
+                <div className='d-flex align-items-center justify-content-center mt-4'>
+                    <Image priority src='/tanuki.webp' alt='' width='250' height='250'/>
+                </div>
                 <FAQ title='FAQ das competições' active data='competitions.json' />
                 <Footer/>
             </main>
