@@ -5,13 +5,13 @@ export default function ErrorPage() {
   return (
     <>
       <Head/>
+      <Navbar/>
       <main>
-          <Navbar/>
           <div className='d-flex align-items-center justify-content-center h-75'>
               <Image height="450" width="850" src="/error_404.png" alt="Logo HackoonSpace"/> 
           </div>
-          <Footer/>
       </main>
+      <Footer/>
     </>
   )
 }

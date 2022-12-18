@@ -5,8 +5,8 @@ function FAQPage() {
 	return ( 
         <>
             <Head />
+            <Navbar />
             <main>
-                <Navbar />
                 <div className='d-flex align-items-center justify-content-center mt-4'>
                     <Image priority src='/mini_qwerty2.png' alt='' width='250' height='250'/>
                 </div>
@@ -19,8 +19,8 @@ function FAQPage() {
                 </div>
                 <FAQ title='Atividade do HackoonSpace' data='hackaextension.json' />
                 <ScrollTop />
-                <Footer />
             </main>
+            <Footer />
         </>
 	)
 }

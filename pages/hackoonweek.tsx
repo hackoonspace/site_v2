@@ -5,8 +5,8 @@ export default function HackoonWeek() {
     return (
         <>
             <Head/>
+            <Navbar/>
             <main>
-                <Navbar/>
                 <Panel 
                     title="Você conhece a HackoonWeek?"
                     image="/hackoonweek_logo.png"
@@ -36,8 +36,8 @@ export default function HackoonWeek() {
                     <Image priority src='/tanuki.webp' alt='' width='250' height='250'/>
                 </div>
                 <FAQ title='FAQ das competições' data='competitions.json' />
-                <Footer/>
             </main>
+            <Footer/>
         </>
     )
 }

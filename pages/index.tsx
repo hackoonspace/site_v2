@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <Head/>
+      <Navbar/>
       <main>
-        <Navbar/>
         <Panel 
           title="Seja bem-vindo(a)"
           image="/HackoonEstampa.webp"
@@ -41,9 +41,9 @@ export default function Home() {
           </a> 
         </div>
         <Supporters title='Parceiros' data='hackoonspace.json' />
-        <Footer/>
-        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
       </main>
+      <Footer/>
+      <script async src="https://platform.twitter.com/widgets.js"></script>
     </>
   )
 }
