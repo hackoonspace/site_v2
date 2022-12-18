@@ -4,6 +4,7 @@ Segunda versão do site para a entidade HackoonSpace, feita com React.js, Next.j
 
 ## TODO
 
+- Consertar bug de background-image no mobile
 - Criar componente/página para inscrições
 - Pegar ideias do protótipo original de site v2.0
 
