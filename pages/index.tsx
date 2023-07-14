@@ -41,6 +41,18 @@ export default function Home() {
           </a> 
         </div>
         <Supporters title='Parceiros' data='hackoonspace.json' />
+        <div
+          style={{
+            color: 'yellow',
+            display: 'flex',
+            textAlign: 'center',
+            justifyContent: 'center',
+            marginTop: 50,
+            fontSize: 30
+          }}
+        >
+          /fhcrefrpergb
+        </div>
       </main>
       <Footer/>
       <script async src="https://platform.twitter.com/widgets.js"></script>
