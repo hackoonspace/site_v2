@@ -12,9 +12,9 @@ export default function SuperSecreto() {
                     fontSize: 30
                 }}
             >
-                Você conseguiu! <br>
-                A senha é {'"hackoonspace321"'} <br>
-                Mostre essa tela para um de nossos membros.
+                <p>Você conseguiu!</p>
+                <p>A senha é {'"hackoonspace321"'}</p>
+                <p>Mostre essa tela para um de nossos membros.</p>
             </div>
         </>
     );
