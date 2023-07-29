@@ -14,7 +14,7 @@ export default function SuperSecreto() {
                 }}
             >
                 <p>Você conseguiu!</p>
-                <p>A senha é {'"hackoonspace321"'}</p>
+                <p style='color: yellow'>A senha é {'"hackoonspace321"'}</p>
                 <p>Mostre essa tela para um de nossos membros.</p>
             </div>
         </>
