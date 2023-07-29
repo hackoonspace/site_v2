@@ -12,8 +12,9 @@ export default function SuperSecreto() {
                     fontSize: 30
                 }}
             >
-                Fale {'"hackoonspace321"'} para um de nossos membros.
-                Cuidado para não falar muito alto!
+                Você conseguiu!
+                A senha é {'"hackoonspace321"'}
+                Mostre essa tela para um de nossos membros.
             </div>
         </>
     );
