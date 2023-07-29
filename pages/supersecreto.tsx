@@ -8,6 +8,7 @@ export default function SuperSecreto() {
                     textAlign: 'center',
                     justifyContent: 'center',
                     alignItems: 'center',
+                    flexDirection: 'column',
                     marginTop: 50,
                     fontSize: 30
                 }}
