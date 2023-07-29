@@ -12,7 +12,8 @@ export default function SuperSecreto() {
                     fontSize: 30
                 }}
             >
-                Fale {'"hackoonspace123"'} para um de nossos membros
+                Fale {'"hackoonspace321"'} para um de nossos membros.
+                Cuidado para não falar muito alto!
             </div>
         </>
     );
