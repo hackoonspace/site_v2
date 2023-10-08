@@ -42,18 +42,18 @@
         ]
     },
     {
-        "title": "Como vão funcionar as competições (CTF e Hackathon)?",
-        "answers": [
-            "Em breve."
-        ]
-    },
-    {
         "title": "Como vão funcionar os sorteios de brindes?",
         "answers": [
             "Para participar dos sorteios, é necessário que você tenha se inscrito no evento no nosso formulário e tenha validado sua participação em pelo menos uma atividade do evento.",
             "Para cada atividade validada, você ganhará uma chance a mais no sorteio. Logo, quanto mais participar, mais chances de ganhar.",
             "Caso você seja selecionado, entraremos em contato para alinhar os detalhes do envio do brinde que você ganhou.",
             "Realizaremos o sorteio dos brindes ao vivo durante a finalização da HackoonWeek."
+        ]
+    },
+    {
+        "title": "Quais brindes serão sorteados?",
+        "answers": [
+            "Nesta edição, iremos sortear dois vouchers (um para Ifood e um para Steam), e uma caneca de porcelana Hanna (do <a class='link' href='https://projecthanna.com' target='__blank'>Projeto Hanna</a>)"
         ]
     },
     {

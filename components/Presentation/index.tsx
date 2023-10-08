@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import { Contact } from '../../types/Cronogram';
+import Dropdown from '../Dropdown';
 import PresentationStyle from './style';
 
 interface Props {
@@ -7,10 +9,11 @@ interface Props {
 	description: string,
 	host: string,
 	hour: string,
-	image: string
+	image: string,
+	contacts?: Contact[]
 }
 
-function Presentation ({ title, description, host, hour, image }: Props) {
+function Presentation ({ title, description, host, hour, image, contacts }: Props) {
 	return (
 		<div style={{padding: 10}}>
 			<div className="palestra">
@@ -29,6 +32,11 @@ function Presentation ({ title, description, host, hour, image }: Props) {
 							<div>
 								<span> Host: <span className="dadosPalestra"> {host} </span></span>
 							</div>
+							{
+								contacts && contacts.length ? 
+								<Dropdown title='Contato' items={contacts} />
+								: ''
+							}
 						</div>
 						<div className="Desc">
 							<span className="box">

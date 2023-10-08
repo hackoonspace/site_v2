@@ -1,0 +1,77 @@
+[
+    {
+        "title": "O que são as competições da HackoonWeek?",
+        "answers": [
+            "Nossas competições são atividades que o HackoonSpace realiza para simular competições hackers reais.",
+            "Em diversos eventos, conferências, hackerspaces e até empresas, são realizados CTFs, Hackathons, Gamejams e similares para várias finalidades, como treinar funcionários, buscar soluções para problemas reais, testar novas tecnologias e por aí vai.",
+            "Aqui, por conta do tempo e do escopo, fazemos diversas simplificações para facilitar a participação de todos e deixar a experiência mais dinâmica."
+        ]
+    },
+    {
+        "title": "Como elas vão funcionar?",
+        "answers": [
+            "As competições da HackoonWeek irão acontecer da seguinte forma:",
+            "- Você deverá manifestar seu interesse em participar de uma (ou mais) delas no nosso <a class='link' href='https://forms.gle/bp3p6WuvLXxeLm848' target='__blank'>formulário de inscrição</a>",
+            "- Antes da competição que você se inscreveu, enviaremos um e-mail com o convite para o servidor do Discord no qual as competições serão realizadas",
+            "- Você precisa aceitar o convite e aguardar até o dia e horário da competição",
+            "- Quando chegar o tempo, os competidores deverão estar nos chats de voz do servidor aguardando pela formação das equipes e pelas demais orientações para realizar a competição (dicas, temas, explicações, ajudas, etc)"
+        ]
+    },
+    {
+        "title": "Preciso saber de alguma coisa prévia para competir?",
+        "answers": [
+            "Você não precisa de nenhum conhecimento prévio para participar das competições. Tanto do CTF quanto do Hackathon.",
+            "Na verdade, são nestas competições que você aprende bastante coisa nova e fortalece o pensamento criativo (explorando falhas, pensando em soluções, conversando com os mentores, etc).",
+            "O prêmio final é mais um pequeno incentivo para gerar competitividade entre as equipes."
+        ]
+    },
+    {
+        "title": "Como vão ser formadas as equipes? Tem limite de pessoas? Posso participar sozinho?",
+        "answers": [
+            "Nós formaremos as equipes de cada competição no horário de início delas, no servidor do Discord onde elas irão ocorrer. Por isso, tanto se você já tiver uma equipe quanto se não tiver, tudo será organizado lá.",
+            "Os limites de formação de grupos são: até 2 pessoas para o Hackathon e até 4 para o Capture The Flag.",
+            "Você pode participar sozinho também, caso queira."
+        ]
+    },
+    {
+        "title": "O que é um Capture The Flag (CTF)?",
+        "answers": [
+            "Capture The Flags (Capture As Bandeiras) são competições nas quais os participantes procuram dados escondidos em algum sistema (as chamadas flags).",
+            "As flags podem estar escondidas em sites, arquivos, URLs, ou onde mais os organizadores do CTF desejarem. No caso do Hackoon, nós gostamos de colocar flags em lugares diversos, com dificuldades também variadas para permitir que todos possam encontrar pelo menos uma.",
+            "Ao final, a pessoa ou equipe que encontrou mais flags (ou obteve mais pontos) ganha."
+        ]
+    },
+    {
+        "title": "Quais são as regras do CTF?",
+        "answers": [
+            "As regras do CTF podem ser encontradas no edital que escrevemos para vocês. <a class='link' href='/files/Regulamento_CTF.pdf' target='__blank'>Clique aqui para acessar!</a>"
+        ]
+    },
+    {
+        "title": "Qual é a prêmio do CTF?",
+        "answers": [
+            "O prêmio do CTF será um valor de R$ 100,00 que será dividido igualmente para todos os membros da equipe vencedora."
+        ]
+    },
+    {
+        "title": "O que é um Hackathon?",
+        "answers": [
+            "Hackathons são maratonas de programação e desenvolvimento de aplicações e soluções. A ideia é pegar algum tipo de situação e propor uma solução tecnológica para ele.",
+            "É uma competição bem focada em resolver problemas e construir softwares, principalmente utilizando ideias inovadoras e saindo da caixinha (por isso a relação com Hacking!)",
+            "Geralmente, o tema e os critérios de avaliação de um Hackathon são decididos pelos responsáveis pela competição, muitas vezes sendo revelados apenas durante a competição para não estragar a surpresa.",
+            "A solução mais bem avaliada pelos jurados é a vencedora."
+        ]
+    },
+    {
+        "title": "Quais são as regras do Hackathon?",
+        "answers": [
+            "As regras do Hackathon podem ser encontradas no edital que escrevemos para vocês. <a class='link' href='/files/Regulamento_Hackathon.pdf' target='__blank'>Clique aqui para acessar!</a>"
+        ]
+    },
+    {
+        "title": "Qual é a prêmio do Hackathon?",
+        "answers": [
+            "O prêmio do Hackathon será um valor de R$ 100,00 que será dividido igualmente para todos os membros da equipe vencedora."
+        ]
+    }
+]

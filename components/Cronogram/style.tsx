@@ -14,7 +14,7 @@ export default css`
     .palestraBox {
         overflow-y: scroll; 
         display: block;
-        height: 450px;
+        height: 550px;
         border-radius: 10px;
         border: 2px solid cyan;
         background-color: rgba(200, 200, 200, 0.2);

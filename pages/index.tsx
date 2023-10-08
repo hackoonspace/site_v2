@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <Head/>
+      <Navbar/>
       <main>
-        <Navbar/>
         <Panel 
           title="Seja bem-vindo(a)"
           image="/HackoonEstampa.webp"
@@ -34,16 +34,28 @@ export default function Home() {
             data-lang='pt'
             data-tweet-limit='3'
             data-theme='dark'
-            className='twitter-timeline' 
+            className='link twitter-timeline' 
             href='https://twitter.com/HackoonSpace?ref_src=twsrc%5Etfw'
           >
             Tweets do HackoonSpace
           </a> 
         </div>
         <Supporters title='Parceiros' data='hackoonspace.json' />
-        <Footer/>
-        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+        <div
+          style={{
+            color: 'yellow',
+            display: 'flex',
+            textAlign: 'center',
+            justifyContent: 'center',
+            marginTop: 50,
+            fontSize: 30
+          }}
+        >
+          /fhcrefrpergb
+        </div>
       </main>
+      <Footer/>
+      <script async src="https://platform.twitter.com/widgets.js"></script>
     </>
   )
 }

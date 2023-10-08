@@ -1,5 +1,6 @@
 export { default as Button } from './Button';
 export { default as Cronogram } from './Cronogram';
+export { default as Dropdown } from './Dropdown';
 export { default as FAQ } from './FAQ';
 export { default as Footer } from './Footer';
 export { default as Head } from './Head';

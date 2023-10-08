@@ -1,11 +1,12 @@
-import { Button, Head, Navbar, ScrollTop, Cronogram, Supporters, Footer, Panel, FAQ } from '../components';
+import Image from 'next/image';
+import { Button, Head, Navbar, ScrollTop, HorizontalDivider, Cronogram, Supporters, Footer, Panel, FAQ } from '../components';
 
 export default function HackoonWeek() {
     return (
         <>
             <Head/>
+            <Navbar/>
             <main>
-                <Navbar/>
                 <Panel 
                     title="Você conhece a HackoonWeek?"
                     image="/hackoonweek_logo.png"
@@ -24,14 +25,19 @@ export default function HackoonWeek() {
                         </p>
                     ]}
                 />
-                <Button text='Inscreva-se agora' size='bg' href=''/>
+                <Button text='Inscreva-se agora' size='bg' target='__blank' href='https://forms.gle/bp3p6WuvLXxeLm848'/>
                 <ScrollTop />
                 <Cronogram /> 
                 <Button text='Assista o evento aqui' size='bg' target='__blank' href='https://www.youtube.com/@hackoonspace'/>
                 <Supporters title='Realização' data='hackoonweek.json' />
                 <FAQ title='FAQ do evento' active data='hackoonweek.json' />
-                <Footer/>
+                <HorizontalDivider />
+                <div className='d-flex align-items-center justify-content-center mt-4'>
+                    <Image priority src='/tanuki.webp' alt='' width='250' height='250'/>
+                </div>
+                <FAQ title='FAQ das competições' data='competitions.json' />
             </main>
+            <Footer/>
         </>
     )
 }
