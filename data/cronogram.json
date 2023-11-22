@@ -3,11 +3,11 @@
         "day": "12/11",
         "presentations": [
             {
-                "title": "Mods: onde desenvolvimento de jogos encontra o hacking",
-                "description": "Nesta palestra detalharemos sobre a relação entre o hacking e a criação de mods e outros tipos de ferramentas em jogos, para gerar diferentes experiências para os jogadores.",
-                "host": "Luis Felipe - Maritacas GameDev",
-                "hour": "19h - 20h15",
-                "image": "/gamedev-luis.webp",
+                "title": "Em Breve",
+                "description": "Novidades em Breve...",
+                "host": "Novidades em Breve da Silva",
+                "hour": "Horario a Decidir",
+                "image": "/fernando.webp",
                 "contacts": [
                     { "title": "E-mail do Luis", "href": "mailto:luis.henriques@dcomp.sor.ufscar.br" },
                     { "title": "E-mail da Maritacas GameDev", "href": "mailto:ufscargamedev@gmail.com" },
@@ -15,11 +15,11 @@
                 ]
             },
             {
-                "title": "Boas práticas para um bom CTF",
-                "description": "O tanuki, nosso time de CTF do HackoonSpace, dará dicas e ferramentas para poder resolver mais facilmente desafios em competições Capture The Flag.",
-                "host": "Tanuki CTF",
-                "hour": "20h45 - 22h",
-                "image": "/tanuki.webp",
+                "title": "Em Breve",
+                "description": "Novidades em Breve...",
+                "host": "Novidades em Breve da Silva",
+                "hour": "Horario a Decidir",
+                "image": "/fernando.webp",
                 "contacts": [
                     { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
@@ -30,22 +30,22 @@
         "day": "13/11",
         "presentations": [
             {
-                "title": "Workshop - Montando computadores com PC Building Simulator",
-                "description": "Vamos utilizar o jogo PC Building Simulator para montar um computador, explicando a função, importância e critérios de escolha para cada peça, como processador, placa-mãe, placa de vídeo, e outras.",
-                "host": "Marcus Natrielli",
-                "hour": "19h - 20h15",
-                "image": "/marcus.webp",
+                "title": "Em Breve",
+                "description": "Novidades em Breve...",
+                "host": "Novidades em Breve da Silva",
+                "hour": "Horario a Decidir",
+                "image": "/fernando.webp",
                 "contacts": [
                     { "title": "E-mail de contato", "href": "mailto:marcus.natrielli@outlook.com" },
                     { "title": "Site portfólio", "href": "https://marcusnatrielli.com" }
                 ]
             },
             {
-                "title": "Capturando Dados Pessoais do Browser",
-                "description": "Esta apresentação mostra uma forma de ataque visando explorar os dados do Browser, com o estudo da aplicação até a criação do malware que captura as senhas e cookies salvos no navegador.",
-                "host": "Penegui - Davi Mikael",
-                "hour": "20h45 - 22h",
-                "image": "/penegui.webp",
+                "title": "Em Breve",
+                "description": "Novidades em Breve...",
+                "host": "Novidades em Breve da Silva",
+                "hour": "Horario a Decidir",
+                "image": "/fernando.webp",
                 "contacts": [
                     { "title": "E-mail de contato", "href": "mailto:peneguioficial@gmail.com" },
                     { "title": "Canal do Youtube", "href": "https://www.youtube.com/penegui" },
@@ -56,10 +56,10 @@
         ]
     },
     {
-        "day": "14/11",
+        "day": "06/12",
         "presentations": [
             {
-                "title": "Capture The Flag - HackoonWeek 2022",
+                "title": "Capture The Flag - HackoonWeek 2023",
                 "description": "Neste evento, os competidores terão que encontrar “flags”, procurando desafios e resolvendo-os à medida que são encontrados. No fim, o time que tiver mais pontos vence o desafio. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
@@ -78,10 +78,10 @@
         "day": "15/11",
         "presentations": [
             {
-                "title": "Desmistificando carreiras na segurança da informação",
-                "description": "A palestra falará sobre como é trabalhar usando hacking no dia a dia e também sobre diversas experiências e surpresas tidas ao trabalhar com segurança da informação.",
-                "host": "Fernando Abromovick",
-                "hour": "19h - 20h15",
+                "title": "Em Breve",
+                "description": "Novidades em breve...",
+                "host": "Em Breve da Silva",
+                "hour": "Horario a Decidir",
                 "image": "/fernando.webp",
                 "contacts": [
                     { "title": "E-mail de contato", "href": "mailto:fernandof.abromovick@hotmail.com" },
@@ -89,11 +89,11 @@
                 ]
             },
             {
-                "title": "Prática sobre desenvolvimento de testes automatizados",
-                "description": "Palestra prática sobre desenvolvimento de testes automatizados. Venha conhecer um pouquinho do mundo de QA e como esta área tem sido cada vez mais importante para o desenvolvimento de software.",
-                "host": "Gustavo de Jesus",
-                "hour": "20h45 - 22h",
-                "image": "/guitarrinha.webp",
+                "title": "Em Breve",
+                "description": "Novidades em breve...",
+                "host": "Em Breve da Silva",
+                "hour": "Horario a Decidir",
+                "image": "/fernando.webp",
                 "contacts": [
                     { "title": "E-mail de contato", "href": "mailto:gu9jrs@gmail.com" },
                     { "title": "Perfil do LinkedIn", "href": "https://linkedin.com/in/gustavo-de-jesus-531304137" }
@@ -102,10 +102,10 @@
         ]
     },
     {
-        "day": "16/11",
+        "day": "08/12",
         "presentations": [
             {
-                "title": "Hackathon - HackoonWeek 2022",
+                "title": "Hackathon - HackoonWeek 2023",
                 "description": "Neste evento, os competidores terão que desenvolver uma solução, em formato de software/programa de computador, para um certo desafio com tema. Após isso, nosso time de jurados decidirá a equipe vencedora baseada em alguns critérios. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
