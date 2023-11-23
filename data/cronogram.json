@@ -7,11 +7,9 @@
                 "description": "Novidades em Breve...",
                 "host": "Novidades em Breve da Silva",
                 "hour": "Horario a Decidir",
-                "image": "/fernando.webp",
+                "image": "/HackoonEstampa.webp",
                 "contacts": [
-                    { "title": "E-mail do Luis", "href": "mailto:luis.henriques@dcomp.sor.ufscar.br" },
-                    { "title": "E-mail da Maritacas GameDev", "href": "mailto:ufscargamedev@gmail.com" },
-                    { "title": "LinkedIn do Luis", "href": "https://linkedin.com/in/luis-felipe-dobner-henriques-2508a4211/" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
             },
             {
@@ -19,7 +17,7 @@
                 "description": "Novidades em Breve...",
                 "host": "Novidades em Breve da Silva",
                 "hour": "Horario a Decidir",
-                "image": "/fernando.webp",
+                "image": "/HackoonEstampa.webp",
                 "contacts": [
                     { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
@@ -34,10 +32,9 @@
                 "description": "Novidades em Breve...",
                 "host": "Novidades em Breve da Silva",
                 "hour": "Horario a Decidir",
-                "image": "/fernando.webp",
+                "image": "/HackoonEstampa.webp",
                 "contacts": [
-                    { "title": "E-mail de contato", "href": "mailto:marcus.natrielli@outlook.com" },
-                    { "title": "Site portfólio", "href": "https://marcusnatrielli.com" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
             },
             {
@@ -45,12 +42,9 @@
                 "description": "Novidades em Breve...",
                 "host": "Novidades em Breve da Silva",
                 "hour": "Horario a Decidir",
-                "image": "/fernando.webp",
+                "image": "/HackoonEstampa.webp",
                 "contacts": [
-                    { "title": "E-mail de contato", "href": "mailto:peneguioficial@gmail.com" },
-                    { "title": "Canal do Youtube", "href": "https://www.youtube.com/penegui" },
-                    { "title": "Perfil do Instagram", "href": "https://www.instagram.com/penegui/" },
-                    { "title": "Perfil do LinkedIn", "href": "https://www.linkedin.com/in/penegui/" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
             }
         ]
@@ -82,10 +76,9 @@
                 "description": "Novidades em breve...",
                 "host": "Em Breve da Silva",
                 "hour": "Horario a Decidir",
-                "image": "/fernando.webp",
+                "image": "/HackoonEstampa.webp",
                 "contacts": [
-                    { "title": "E-mail de contato", "href": "mailto:fernandof.abromovick@hotmail.com" },
-                    { "title": "Perfil do LinkedIn", "href": "https://linkedin.com/in/fernandofavaretoabromovick" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
             },
             {
@@ -93,10 +86,9 @@
                 "description": "Novidades em breve...",
                 "host": "Em Breve da Silva",
                 "hour": "Horario a Decidir",
-                "image": "/fernando.webp",
+                "image": "/HackoonEstampa.webp",
                 "contacts": [
-                    { "title": "E-mail de contato", "href": "mailto:gu9jrs@gmail.com" },
-                    { "title": "Perfil do LinkedIn", "href": "https://linkedin.com/in/gustavo-de-jesus-531304137" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
             }
         ]
