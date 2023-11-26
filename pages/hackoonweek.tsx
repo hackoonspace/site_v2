@@ -9,7 +9,7 @@ export default function HackoonWeek() {
             <main>
                 <Panel 
                     title="Você conhece a HackoonWeek?"
-                    image="/hackoonweek_logo.png"
+                    image="/hackoonweek-logo-site.png"
                     description={[
                         <p key='panel-1' className='paragraph'>
                             A HackoonWeek é um evento anual sobre cultura hacker, programação e o mundo da computação no geral. Ele é realizado pelo hackerspace <a className='link' href="https://hackoonspace.com" rel="noreferrer" target="_blank">HackoonSpace</a>, localizado na Universidade Federal de São Carlos, em Sorocaba.
@@ -25,7 +25,7 @@ export default function HackoonWeek() {
                         </p>
                     ]}
                 />
-                <Button text='Inscreva-se agora' size='bg' target='__blank' href='https://forms.gle/bp3p6WuvLXxeLm848'/>
+                <Button text='Inscreva-se agora' size='bg' target='__blank' href='https://forms.gle/CL2ucdjiMaRDYaMY7'/>
                 <ScrollTop />
                 <Cronogram /> 
                 <Button text='Assista o evento aqui' size='bg' target='__blank' href='https://www.youtube.com/@hackoonspace'/>
