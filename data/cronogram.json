@@ -3,23 +3,25 @@
         "day": "04/12",
         "presentations": [
             {
-                "title": "Em Breve",
-                "description": "Novidades em Breve...",
-                "host": "Novidades em Breve da Silva",
-                "hour": "Horario a Decidir",
-                "image": "/HackoonEstampa.webp",
+                "title": "Emulação: uma dádiva do hacking no mundo dos jogos",
+                "description": "O que é emulação? Como emuladores funcionam? É ilegal? Quais são os limites da emulação? Essas e outras perguntas serão respondidas nessa apresentação que focará, especialmente, na área que a maioria dos emuladores são feitos como objetivos: a de games.",
+                "host": "Fidel Cassio Santos Pereira (Maritacas Gamedev)",
+                "hour": "19h00",
+                "image": "/maritaca.png",
                 "contacts": [
-                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
+                    { "title": "E-mail da Maritacas Gamedev", "href": "mailto:ufscargamedev@gmail.com" },
+                    { "title": "E-mail do Fidel Cassio Santos Pereira", "href": "mailto:fidelcsp@estudante.ufscar.br" }
                 ]
             },
             {
-                "title": "Em Breve",
-                "description": "Novidades em Breve...",
-                "host": "Novidades em Breve da Silva",
-                "hour": "Horario a Decidir",
-                "image": "/HackoonEstampa.webp",
+                "title": "Iniciando projetos com Arduino",
+                "description": "Nesta palestra, venha entender como você pode começar a utilizar Arduino, a plataforma de robótica mais famosa do mundo, nos seus projetos! Contem exemplos práticos e via código.",
+                "host": "Marcus Natrielli",
+                "hour": "20h45",
+                "image": "/marcusnatrielli.png",
                 "contacts": [
-                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
+                    { "title": "E-mail do Marcus Natrielli", "href": "mailto:marcus.natrielli@outlook.com" },
+                    { "title": "Redes sociais: @MarcusNatrielli", "href": "" }
                 ]
             }
         ]
@@ -28,21 +30,21 @@
         "day": "05/12",
         "presentations": [
             {
-                "title": "Em Breve",
-                "description": "Novidades em Breve...",
-                "host": "Novidades em Breve da Silva",
-                "hour": "Horario a Decidir",
-                "image": "/HackoonEstampa.webp",
+                "title": "Por que todos devem se preocupar com a Cyber Segurança? - Os desafios das empresas e da carreira em Cyber Segurança",
+                "description": "Tatiana Mota, Information Security Consultant na Bayer Brasil, palestrará na Hackoon Week sobre o tema: Por que todos devem se preocupar com a Cyber Segurança? - Os desafios das empresas e da carreira em Cyber Segurança. Essa palestra é para você que quer conhecer mais sobre a Bayer, carreira, certificações e cases na área de Segurança da Informação. Não perca!",
+                "host": "Tatiana Mota (Bayer)",
+                "hour": "19h00",
+                "image": "/bayer.png",
                 "contacts": [
-                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
+                    { "title": "E-mail da Tatiana", "href": "mailto:tatiana.mota@bayer.com" }
                 ]
             },
             {
-                "title": "Em Breve",
-                "description": "Novidades em Breve...",
-                "host": "Novidades em Breve da Silva",
-                "hour": "Horario a Decidir",
-                "image": "/HackoonEstampa.webp",
+                "title": "Tanuki CTF",
+                "description": "O tanuki, nosso time de CTF do HackoonSpace, dará dicas e ferramentas para poder resolver mais facilmente desafios em competições Capture The Flag.",
+                "host": "Fernando Abromovick (Tanuki CTF)",
+                "hour": "20h45",
+                "image": "/tanuki.webp",
                 "contacts": [
                     { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
@@ -72,23 +74,23 @@
         "day": "07/12",
         "presentations": [
             {
-                "title": "Em Breve",
-                "description": "Novidades em breve...",
-                "host": "Em Breve da Silva",
-                "hour": "Horario a Decidir",
-                "image": "/HackoonEstampa.webp",
+                "title": "Mantendo Honestos os Honestos: Ataques Analógicos e Digitais a Fechaduras Físicas",
+                "description": "Nesta palestra eu vou mostrar um pouco da similaridade da segurança física com a segurança digital. Após a descrição obrigatória de como uma fechadura física funciona e de como arrombá-la, eu mostrarei como conceitos criptográficos podem ser usados para caracterizar um ataque simples a uma fechadura física com chave mestra.",
+                "host": "Gustavo Maciel Dias Vieira",
+                "hour": "19h00",
+                "image": "/profgustavo.png",
                 "contacts": [
-                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:gdvieira@ufscar.br" }
                 ]
             },
             {
-                "title": "Em Breve",
-                "description": "Novidades em breve...",
-                "host": "Em Breve da Silva",
-                "hour": "Horario a Decidir",
-                "image": "/HackoonEstampa.webp",
+                "title": "Android NFC Hacking - A Biohacker's Approach",
+                "description": "Biohacking tem como propósito agregar ou melhorar funções do corpo humano. Com isso, biochips NFC já se tornaram comuns na comunidade de InfoSec desempenhando tarefas como apresentar um cartão de visitas, site e até usados como vetor de ataque. Essa palestra apresenta técnicas já conhecidas de hacking NFC em smartphones Android, porém, utilizando-se de biochips, demonstrando novas possibilidades na exploração dessas falhas.",
+                "host": "Matheus Gaboardi",
+                "hour": "20h45",
+                "image": "/matheusgaboardi.png",
                 "contacts": [
-                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
+                    { "title": "E-mail do Matheus Gaboardi", "href": "mailto:matheusgtralli@live.com" }
                 ]
             }
         ]
@@ -105,8 +107,8 @@
                 "contacts": []
             },
             {
-                "title": "Resultados do Hackathon + sorteios",
-                "description": "Análise dos resultados do Hackathon e sorteio dos brindes para quem participou da HackoonWeek 2022.",
+                "title": "Resultados do Hackathon",
+                "description": "Análise dos resultados do Hackathon e encerramento da HackoonWeek 2023.",
                 "host": "HackoonSpace",
                 "hour": "21h30 - 22h",
                 "image": "/HackoonEstampa.webp"
