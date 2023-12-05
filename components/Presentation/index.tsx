@@ -34,7 +34,7 @@ function Presentation ({ title, description, host, hour, image, contacts }: Prop
 							</div>
 							{
 								contacts && contacts.length ? 
-								<Dropdown title='Contato' items={contacts} />
+								<Dropdown title='Contato e Informações' items={contacts} />
 								: ''
 							}
 						</div>
