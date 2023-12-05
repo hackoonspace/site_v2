@@ -47,27 +47,27 @@ export default function Cronogram() {
 			<div className="cronogram-buttons row d-flex justify-content-around mb-4 gap-4 mw-100">
 				<div className="col col-md-auto d-flex justify-content-center">
 					<button style={getButtonBackgroundColor(0)} onClick={() => changeDay(0) }>
-						1º dia - 12/12
+						1º dia - 04/12
 					</button>
 				</div>
 				<div className="col col-md-auto d-flex justify-content-center">
 					<button style={getButtonBackgroundColor(1)} onClick={() => changeDay(1) }>
-						2º dia - 13/12
+						2º dia - 05/12
 					</button>
 				</div>
 				<div className="col col-md-auto d-flex justify-content-center"> 
 					<button style={getButtonBackgroundColor(2)} onClick={() => changeDay(2) }>
-						3º dia - 14/12
+						3º dia - 06/12
 					</button>
 				</div>
 				<div className="col col-md-auto d-flex justify-content-center"> 
 					<button style={getButtonBackgroundColor(3)} onClick={() => changeDay(3) }>
-						4º dia - 15/12
+						4º dia - 07/12
 					</button>
 				</div>
 				<div className="col col-md-auto d-flex justify-content-center"> 
 					<button style={getButtonBackgroundColor(4)} onClick={() => changeDay(4) }>
-						5º dia - 16/12
+						5º dia - 08/12
 					</button>
 				</div>
 			</div>

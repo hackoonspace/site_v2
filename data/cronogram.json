@@ -59,7 +59,10 @@
                 "description": "Neste evento, os competidores terão que encontrar “flags”, procurando desafios e resolvendo-os à medida que são encontrados. No fim, o time que tiver mais pontos vence o desafio. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
-                "image": "/ctf.webp"
+                "image": "/ctf.webp",
+                "contacts": [
+                    { "title": "Regulamento do CTF", "href": "https://docs.google.com/document/d/1aW9UedAk7-zcGx9wrJ_tebBF-ich8lEIZEWBNlgJ234/edit?usp=sharing" }
+                ]
             },
             {
                 "title": "Resultados do Capture The Flag",
@@ -104,7 +107,9 @@
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
                 "image": "/hackathon.webp",
-                "contacts": []
+                "contacts": [
+                    { "title": "Regulamento do Hackathon", "href": "https://docs.google.com/document/d/1kOEz8XKQVt7_KLoeseLzL-xdrfChPCLlu_GhetMHYRI/edit?usp=sharing" }
+                ]
             },
             {
                 "title": "Resultados do Hackathon",
