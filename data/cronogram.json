@@ -1,6 +1,6 @@
 [
     {
-        "day": "04/12",
+        "day": "10/03",
         "presentations": [
             {
                 "title": "Emulação: uma dádiva do hacking no mundo dos jogos",
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "day": "05/12",
+        "day": "11/03",
         "presentations": [
             {
                 "title": "Por que todos devem se preocupar com a Cyber Segurança? - Os desafios das empresas e da carreira em Cyber Segurança",
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "day": "06/12",
+        "day": "12/03",
         "presentations": [
             {
                 "title": "Capture The Flag - HackoonWeek 2023",
@@ -74,7 +74,7 @@
         ]
     },
     {
-        "day": "07/12",
+        "day": "13/03",
         "presentations": [
             {
                 "title": "Mantendo Honestos os Honestos: Ataques Analógicos e Digitais a Fechaduras Físicas",
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "day": "08/12",
+        "day": "14/03",
         "presentations": [
             {
                 "title": "Hackathon - HackoonWeek 2023",
