@@ -103,7 +103,7 @@
                 "image": "/logo_projetohanna.png",
                 "contacts": [
                     { "title": "E-mail do Projeto Hanna", "href": "mailto:contato@projetohanna.com" },
-                    { "title": "Redes Sociais do Projeto Hanna: @projeto_hanna", "href": "/hackoonweek" }
+                    { "title": "Redes Sociais do Projeto Hanna: @projeto_hanna", "href": "https://linktr.ee/Projeto_Hanna" }
                 ]
             }
         ]
