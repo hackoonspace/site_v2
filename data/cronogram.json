@@ -43,7 +43,7 @@
                 "description": "Nesta palestra, trataremos dos Ataques Adversariais, e como pequenos ajustes em entradas de dados podem enganar modelos de IA, comprometendo sua precisão e confiabilidade. A apresentação apresentará alguns ataques e seus impactos em áreas críticas como segurança cibernética, saúde e transporte autônomo.",
                 "host": "Matheus Coelho",
                 "hour": "19h00 - 20h15",
-                "image": "/matheuscoelho.jpeg",
+                "image": "/matheuscoelho.png",
                 "contacts": [
                     { "title": "Linkedin do Matheus Coelho", "href": "https://www.linkedin.com/in/matheusgmcoelho/" }
                 ]
@@ -89,7 +89,7 @@
                 "title": "Palestra: Prof. Gustavo Maciel",
                 "description": "Palestra ministrada pelo professor da UFSCar e Coordenador do HackoonSpace, Gustavo Maciel Dias Vieira! O tema será revelado em breve, fique ligado!",
                 "host": "Gustavo Maciel Dias Vieira",
-                "hour": "19h00",
+                "hour": "19h00 - 20h15",
                 "image": "/profgustavo.png",
                 "contacts": [
                     { "title": "E-mail do Prof. Gustavo", "href": "mailto:gdvieira@ufscar.br" }
@@ -99,11 +99,11 @@
                 "title": "Hacking na cultura POP: Representações e Realidades",
                 "description": "Você já viu algum hacker por aí? Provável que sim, mas não como você imagina.\n Participe desse momento no qual vamos falar sobre como o hacking tem sido representado em games, filmes, séries e demais mídias, comparando o mito com a realidade. \n Será uma palestra descontraída e para todos os níveis de conhecimento, mas com diversas ideias e discussões sobre a origem da filosofia hacker e como ela foi abraçada pela nossa cultura.",
                 "host": "Marcus Natrielli (Projeto Hanna)",
-                "hour": "20h45",
+                "hour": "20h45 - 22h00",
                 "image": "/logo_projetohanna.png",
                 "contacts": [
                     { "title": "E-mail do Projeto Hanna", "href": "mailto:contato@projetohanna.com" },
-                    { "title": "Redes Sociais do Projeto Hanna: @projeto_hanna", "href": "" }
+                    { "title": "Redes Sociais do Projeto Hanna: @projeto_hanna", "href": "/hackoonweek" }
                 ]
             }
         ]
@@ -115,17 +115,17 @@
                 "title": "Gamejam - HackoonWeek 2024",
                 "description": "Neste evento, os competidores terão que desenvolver um jogo, com tema anunciado no início do desafio, e terão 2 dias para isso. Após isso, nosso time de jurados decidirá a equipe vencedora baseada em alguns critérios. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
-                "hour": "19h - 21h30",
+                "hour": "19h do dia 14/03 - 19h do dia 16/03",
                 "image": "/gamejam_hackoonweek2024.png",
                 "contacts": [
-                    { "title": "Regulamento do Hackathon", "href": "https://docs.google.com/document/d/1puZOazQh467fQ8GvPI14NB7vKdfxxjG66Cualkq9To0/edit?usp=sharing" }
+                    { "title": "Regulamento da Gamejam", "href": "https://docs.google.com/document/d/1puZOazQh467fQ8GvPI14NB7vKdfxxjG66Cualkq9To0/edit?usp=sharing" }
                 ]
             },
             {
                 "title": "Resultados da Gamejam",
                 "description": "Análise dos resultados da Gamejam e encerramento da HackoonWeek 2024.",
                 "host": "HackoonSpace",
-                "hour": "21h30 - 22h",
+                "hour": "19h do dia 16/03",
                 "image": "/HackoonEstampa.webp"
             }
         ]
