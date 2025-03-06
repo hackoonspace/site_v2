@@ -3,25 +3,34 @@
         "day": "10/03",
         "presentations": [
             {
-                "title": "Emulação: uma dádiva do hacking no mundo dos jogos",
-                "description": "O que é emulação? Como emuladores funcionam? É ilegal? Quais são os limites da emulação? Essas e outras perguntas serão respondidas nessa apresentação que focará, especialmente, na área que a maioria dos emuladores são feitos como objetivos: a de games.",
-                "host": "Fidel Cassio Santos Pereira (Maritacas Gamedev)",
-                "hour": "19h00",
-                "image": "/maritaca.png",
+                "title": "Abertura",
+                "description": "O tanuki, nosso time de CTF do HackoonSpace, dará dicas e ferramentas para poder resolver mais facilmente desafios em competições Capture The Flag.",
+                "host": "Fernando Favareto Abromovick (Tanuki CTF)",
+                "hour": "19h00 - 19h30",
+                "image": "/logo-hw2024.png",
                 "contacts": [
-                    { "title": "E-mail da Maritacas Gamedev", "href": "mailto:ufscargamedev@gmail.com" },
-                    { "title": "E-mail do Fidel Cassio Santos Pereira", "href": "mailto:fidelcsp@estudante.ufscar.br" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
             },
             {
-                "title": "Iniciando projetos com Arduino",
-                "description": "Nesta palestra, venha entender como você pode começar a utilizar Arduino, a plataforma de robótica mais famosa do mundo, nos seus projetos! Contem exemplos práticos e via código.",
-                "host": "Marcus Natrielli",
-                "hour": "20h45",
-                "image": "/marcusnatrielli.png",
+                "title": "Tanuki CTF",
+                "description": "O tanuki, nosso time de CTF do HackoonSpace, dará dicas e ferramentas para poder resolver mais facilmente desafios em competições Capture The Flag.",
+                "host": "Fernando Favareto Abromovick (Tanuki CTF)",
+                "hour": "19h30 - 20h15",
+                "image": "/tanuki.webp",
                 "contacts": [
-                    { "title": "E-mail do Marcus Natrielli", "href": "mailto:marcus.natrielli@outlook.com" },
-                    { "title": "Redes sociais: @MarcusNatrielli", "href": "" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
+                ]
+            },
+            {
+                "title": "Matchmaking de jogos: uma análise do criativo ao prático",
+                "description": "Nessa palestra, abordaremos como conceitos de design de jogos e de conexão em redes se interligam em diferentes jogos online. Por que os tempos de fila de jogos podem ser tão longos? Quais são as motivações por trás do skill-based matchmaking? Dos AAA aos jogos indie, entenda o que está por trás tanto dos sistemas mais simples peer-to-peer quanto dos complexos MMO.",
+                "host": "Gabriel Evangelista Goncalves da Silva (Maritacas Gamedev)",
+                "hour": "20h45 - 22h00",
+                "image": "/maritaca.png",
+                "contacts": [
+                    { "title": "E-mail da Maritacas Gamedev", "href": "mailto:ufscargamedev@gmail.com" },
+                    { "title": "E-mail do Gabriel Evangelista Goncalves da Silva", "href": "mailto:evangoncalves8994@gmail.com" }
                 ]
             }
         ]
@@ -30,21 +39,21 @@
         "day": "11/03",
         "presentations": [
             {
-                "title": "Por que todos devem se preocupar com a Cyber Segurança? - Os desafios das empresas e da carreira em Cyber Segurança",
-                "description": "Tatiana Mota, Information Security Consultant na Bayer Brasil, palestrará na Hackoon Week sobre o tema: Por que todos devem se preocupar com a Cyber Segurança? - Os desafios das empresas e da carreira em Cyber Segurança. Essa palestra é para você que quer conhecer mais sobre a Bayer, carreira, certificações e cases na área de Segurança da Informação. Não perca!",
-                "host": "Tatiana Mota (Bayer)",
-                "hour": "19h00",
-                "image": "/bayer.png",
+                "title": "IA e Ataques Adversariais",
+                "description": "Nesta palestra, trataremos dos Ataques Adversariais, e como pequenos ajustes em entradas de dados podem enganar modelos de IA, comprometendo sua precisão e confiabilidade. A apresentação apresentará alguns ataques e seus impactos em áreas críticas como segurança cibernética, saúde e transporte autônomo.",
+                "host": "Matheus Coelho",
+                "hour": "19h00 - 20h15",
+                "image": "/matheuscoelho.jpeg",
                 "contacts": [
-                    { "title": "E-mail da Tatiana", "href": "mailto:tatiana.mota@bayer.com" }
+                    { "title": "Linkedin do Matheus Coelho", "href": "https://www.linkedin.com/in/matheusgmcoelho/" }
                 ]
             },
             {
-                "title": "Tanuki CTF",
-                "description": "O tanuki, nosso time de CTF do HackoonSpace, dará dicas e ferramentas para poder resolver mais facilmente desafios em competições Capture The Flag.",
-                "host": "Fernando Abromovick (Tanuki CTF)",
-                "hour": "20h45",
-                "image": "/tanuki.webp",
+                "title": "HackoonParty Gameshow",
+                "description": "Bem vindos ao maior espetáculo da semana! Nesse evento, reuniremos vários dos alunos já formados de ciência da computação para participarem dando dicas e conselhos sobre a vida antes, durante e depois da universidade! Depois disso, eles batalharão freneticamente no maior gameshow de todos os tempos, para ver quem é o BCC mais qualificado da UFSCar de Sorocaba! Não percam!",
+                "host": "Fernando Abromovick",
+                "hour": "20h45 - 22h00",
+                "image": "/hackoonparty.png",
                 "contacts": [
                     { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
@@ -55,7 +64,7 @@
         "day": "12/03",
         "presentations": [
             {
-                "title": "Capture The Flag - HackoonWeek 2023",
+                "title": "Capture The Flag - HackoonWeek 2024",
                 "description": "Neste evento, os competidores terão que encontrar “flags”, procurando desafios e resolvendo-os à medida que são encontrados. No fim, o time que tiver mais pontos vence o desafio. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
@@ -66,7 +75,7 @@
             },
             {
                 "title": "Resultados do Capture The Flag",
-                "description": "Análise dos resultados do Capture The Flag.",
+                "description": "Análise dos resultados do Capture The Flag, e declaração dos vencedores!",
                 "host": "HackoonSpace",
                 "hour": "21h30 - 22h",
                 "image": "/HackoonEstampa.webp"
@@ -77,23 +86,24 @@
         "day": "13/03",
         "presentations": [
             {
-                "title": "Mantendo Honestos os Honestos: Ataques Analógicos e Digitais a Fechaduras Físicas",
-                "description": "Nesta palestra eu vou mostrar um pouco da similaridade da segurança física com a segurança digital. Após a descrição obrigatória de como uma fechadura física funciona e de como arrombá-la, eu mostrarei como conceitos criptográficos podem ser usados para caracterizar um ataque simples a uma fechadura física com chave mestra.",
+                "title": "Palestra: Prof. Gustavo Maciel",
+                "description": "Palestra ministrada pelo professor da UFSCar e Coordenador do HackoonSpace, Gustavo Maciel Dias Vieira! O tema será revelado em breve, fique ligado!",
                 "host": "Gustavo Maciel Dias Vieira",
                 "hour": "19h00",
                 "image": "/profgustavo.png",
                 "contacts": [
-                    { "title": "E-mail do HackoonSpace", "href": "mailto:gdvieira@ufscar.br" }
+                    { "title": "E-mail do Prof. Gustavo", "href": "mailto:gdvieira@ufscar.br" }
                 ]
             },
             {
-                "title": "Android NFC Hacking - A Biohacker's Approach",
-                "description": "Biohacking tem como propósito agregar ou melhorar funções do corpo humano. Com isso, biochips NFC já se tornaram comuns na comunidade de InfoSec desempenhando tarefas como apresentar um cartão de visitas, site e até usados como vetor de ataque. Essa palestra apresenta técnicas já conhecidas de hacking NFC em smartphones Android, porém, utilizando-se de biochips, demonstrando novas possibilidades na exploração dessas falhas.",
-                "host": "Matheus Gaboardi",
+                "title": "Hacking na cultura POP: Representações e Realidades",
+                "description": "Você já viu algum hacker por aí? Provável que sim, mas não como você imagina.\n Participe desse momento no qual vamos falar sobre como o hacking tem sido representado em games, filmes, séries e demais mídias, comparando o mito com a realidade. \n Será uma palestra descontraída e para todos os níveis de conhecimento, mas com diversas ideias e discussões sobre a origem da filosofia hacker e como ela foi abraçada pela nossa cultura.",
+                "host": "Marcus Natrielli (Projeto Hanna)",
                 "hour": "20h45",
-                "image": "/matheusgaboardi.png",
+                "image": "/logo_projetohanna.png",
                 "contacts": [
-                    { "title": "E-mail do Matheus Gaboardi", "href": "mailto:matheusgtralli@live.com" }
+                    { "title": "E-mail do Projeto Hanna", "href": "mailto:contato@projetohanna.com" },
+                    { "title": "Redes Sociais do Projeto Hanna: @projeto_hanna" }
                 ]
             }
         ]
@@ -102,18 +112,18 @@
         "day": "14/03",
         "presentations": [
             {
-                "title": "Hackathon - HackoonWeek 2023",
-                "description": "Neste evento, os competidores terão que desenvolver uma solução, em formato de software/programa de computador, para um certo desafio com tema. Após isso, nosso time de jurados decidirá a equipe vencedora baseada em alguns critérios. Podem participar pessoas com todos os níveis de conhecimento!",
+                "title": "Gamejam - HackoonWeek 2024",
+                "description": "Neste evento, os competidores terão que desenvolver um jogo, com tema anunciado no início do desafio, e terão 2 dias para isso. Após isso, nosso time de jurados decidirá a equipe vencedora baseada em alguns critérios. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
-                "image": "/hackathon.webp",
+                "image": "/gamejam_hackoonweek2024.png",
                 "contacts": [
-                    { "title": "Regulamento do Hackathon", "href": "https://docs.google.com/document/d/1kOEz8XKQVt7_KLoeseLzL-xdrfChPCLlu_GhetMHYRI/edit?usp=sharing" }
+                    { "title": "Regulamento do Hackathon", "href": "https://docs.google.com/document/d/1puZOazQh467fQ8GvPI14NB7vKdfxxjG66Cualkq9To0/edit?usp=sharing" }
                 ]
             },
             {
-                "title": "Resultados do Hackathon",
-                "description": "Análise dos resultados do Hackathon e encerramento da HackoonWeek 2023.",
+                "title": "Resultados da Gamejam",
+                "description": "Análise dos resultados da Gamejam e encerramento da HackoonWeek 2024.",
                 "host": "HackoonSpace",
                 "hour": "21h30 - 22h",
                 "image": "/HackoonEstampa.webp"
