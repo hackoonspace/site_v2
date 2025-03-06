@@ -50,28 +50,28 @@
     {
         "title": "Qual é a prêmio do CTF?",
         "answers": [
-            "O prêmio do CTF será um valor de R$ 100,00 que será dividido igualmente para todos os membros da equipe vencedora."
+            "O prêmio do CTF será um valor de R$ 200,00 que será dividido igualmente para todos os membros da equipe vencedora."
         ]
     },
     {
-        "title": "O que é um Hackathon?",
+        "title": "O que é uma Gamejam?",
         "answers": [
-            "Hackathons são maratonas de programação e desenvolvimento de aplicações e soluções. A ideia é pegar algum tipo de situação e propor uma solução tecnológica para ele.",
-            "É uma competição bem focada em resolver problemas e construir softwares, principalmente utilizando ideias inovadoras e saindo da caixinha (por isso a relação com Hacking!)",
-            "Geralmente, o tema e os critérios de avaliação de um Hackathon são decididos pelos responsáveis pela competição, muitas vezes sendo revelados apenas durante a competição para não estragar a surpresa.",
-            "A solução mais bem avaliada pelos jurados é a vencedora."
+            "Gamejams são maratonas de desenvolvimento de jogos digitais. A ideia é pegar um tema ou conceito e criar um jogo baseado nele dentro de um curto período de tempo.",
+            "É uma competição focada na criatividade e na experimentação, incentivando desenvolvedores a testar novas mecânicas, narrativas e estilos gráficos para inovar no design de jogos!",
+            "Geralmente, o tema e as restrições de uma Gamejam são decididos pelos organizadores e só são revelados no início do evento para estimular a improvisação e o pensamento rápido.",
+            "O jogo mais bem avaliado pelos jurados, com base nos critérios definidos, é o vencedor!"
         ]
     },
     {
-        "title": "Quais são as regras do Hackathon?",
+        "title": "Quais são as regras da Gamejam?",
         "answers": [
-            "As regras do Hackathon podem ser encontradas no edital que escrevemos para vocês. <a class='link' href='/files/Regulamento_Hackathon.pdf' target='__blank'>Clique aqui para acessar!</a>"
+            "As regras da Gamejam podem ser encontradas no edital que escrevemos para vocês. <a class='link' href='/files/Regulamento-GameJam.pdf' target='__blank'>Clique aqui para acessar!</a>"
         ]
     },
     {
-        "title": "Qual é a prêmio do Hackathon?",
+        "title": "Qual é a prêmio da Gamejam?",
         "answers": [
-            "O prêmio do Hackathon será um valor de R$ 100,00 que será dividido igualmente para todos os membros da equipe vencedora."
+            "O prêmio da Gamejam será um valor de R$ 200,00 que será dividido igualmente para todos os membros da equipe vencedora."
         ]
     }
 ]
