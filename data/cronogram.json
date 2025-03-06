@@ -4,9 +4,9 @@
         "presentations": [
             {
                 "title": "Abertura",
-                "description": "O tanuki, nosso time de CTF do HackoonSpace, dará dicas e ferramentas para poder resolver mais facilmente desafios em competições Capture The Flag.",
-                "host": "Fernando Favareto Abromovick (Tanuki CTF)",
-                "hour": "19h00 - 19h30",
+                "description": "Bem vindos à HackoonWeek 2024! Vamos dar início a uma semana de diversas palestras, eventos e atividades, conferindo o cronograma do evento e muito mais!",
+                "host": "Fernando Favareto Abromovick",
+                "hour": "19h00 - 19h15",
                 "image": "/logo-hw2024.png",
                 "contacts": [
                     { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
@@ -16,7 +16,7 @@
                 "title": "Tanuki CTF",
                 "description": "O tanuki, nosso time de CTF do HackoonSpace, dará dicas e ferramentas para poder resolver mais facilmente desafios em competições Capture The Flag.",
                 "host": "Fernando Favareto Abromovick (Tanuki CTF)",
-                "hour": "19h30 - 20h15",
+                "hour": "19h15 - 20h15",
                 "image": "/tanuki.webp",
                 "contacts": [
                     { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
