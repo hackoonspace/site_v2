@@ -64,7 +64,7 @@
         "day": "12/03",
         "presentations": [
             {
-                "title": "Capture The Flag - HackoonWeek 2024",
+                "title": "Evento - Capture The Flag HackoonWeek 2024",
                 "description": "Neste evento, os competidores terão que encontrar “flags”, procurando desafios e resolvendo-os à medida que são encontrados. No fim, o time que tiver mais pontos vence o desafio. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
                 "hour": "19h - 21h30",
@@ -78,7 +78,7 @@
                 "description": "Análise dos resultados do Capture The Flag, e declaração dos vencedores!",
                 "host": "HackoonSpace",
                 "hour": "21h30 - 22h",
-                "image": "/HackoonEstampa.webp"
+                "image": "/ctf.webp"
             }
         ]
     },
@@ -112,10 +112,20 @@
         "day": "14/03",
         "presentations": [
             {
-                "title": "Gamejam - HackoonWeek 2024",
+                "title": "Abertura - Gamejam HackoonWeek 2024",
+                "description": "Palestra introdutória sobre desenvolvimento de jogos dada pela entidade Maritacas Gamedev, entitulada \"Oficina introdução de games em godot\". Aprenda o básico sobre desenvolvimento de jogos para participar do evento da gamejam!",
+                "host": "Maritacas Gamedev",
+                "hour": "19h00 - 20h00",
+                "image": "/maritaca.png",
+                "contacts": [
+                    { "title": "E-mail da Maritacas Gamedev", "href": "mailto:ufscargamedev@gmail.com" }
+                ]
+            },
+            {
+                "title": "Evento - Gamejam HackoonWeek 2024",
                 "description": "Neste evento, os competidores terão que desenvolver um jogo, com tema anunciado no início do desafio, e terão 2 dias para isso. Após isso, nosso time de jurados decidirá a equipe vencedora baseada em alguns critérios. Podem participar pessoas com todos os níveis de conhecimento!",
                 "host": "HackoonSpace",
-                "hour": "19h do dia 14/03 - 19h do dia 16/03",
+                "hour": "20h do dia 14/03 - 20h do dia 16/03",
                 "image": "/gamejam_hackoonweek2024.png",
                 "contacts": [
                     { "title": "Regulamento da Gamejam", "href": "https://docs.google.com/document/d/1puZOazQh467fQ8GvPI14NB7vKdfxxjG66Cualkq9To0/edit?usp=sharing" }
@@ -125,8 +135,8 @@
                 "title": "Resultados da Gamejam",
                 "description": "Análise dos resultados da Gamejam e encerramento da HackoonWeek 2024.",
                 "host": "HackoonSpace",
-                "hour": "19h do dia 16/03",
-                "image": "/HackoonEstampa.webp"
+                "hour": "20h do dia 16/03",
+                "image": "/gamejam_hackoonweek2024.png"
             }
         ]
     }
