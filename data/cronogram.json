@@ -23,14 +23,13 @@
                 ]
             },
             {
-                "title": "Matchmaking de jogos: uma análise do criativo ao prático",
-                "description": "Nessa palestra, abordaremos como conceitos de design de jogos e de conexão em redes se interligam em diferentes jogos online. Por que os tempos de fila de jogos podem ser tão longos? Quais são as motivações por trás do skill-based matchmaking? Dos AAA aos jogos indie, entenda o que está por trás tanto dos sistemas mais simples peer-to-peer quanto dos complexos MMO.",
-                "host": "Gabriel Evangelista Goncalves da Silva (Maritacas Gamedev)",
+                "title": "Gameplay HackoonWeek: Jogos diversos",
+                "description": "Venham descontrair com uma jogatina no hackoon! Jogaremos jogos entre Codenames, GarticPhone, Roblox, e mais!",
+                "host": "HackoonSpace",
                 "hour": "20h45 - 22h00",
-                "image": "/maritaca.png",
+                "image": "/HackoonEstampa.webp",
                 "contacts": [
-                    { "title": "E-mail da Maritacas Gamedev", "href": "mailto:ufscargamedev@gmail.com" },
-                    { "title": "E-mail do Gabriel Evangelista Goncalves da Silva", "href": "mailto:evangoncalves8994@gmail.com" }
+                    { "title": "E-mail do HackoonSpace", "href": "mailto:hackoonspace@gmail.com" }
                 ]
             }
         ]
