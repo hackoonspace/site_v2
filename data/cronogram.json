@@ -85,8 +85,8 @@
         "day": "13/03",
         "presentations": [
             {
-                "title": "Palestra: Prof. Gustavo Maciel",
-                "description": "Palestra ministrada pelo professor da UFSCar e Coordenador do HackoonSpace, Gustavo Maciel Dias Vieira! O tema será revelado em breve, fique ligado!",
+                "title": "Na Corda Bamba sem Rede de Segurança: Segurança de Memória e Software Básico",
+                "description": "Praticamente todo software básico hoje em dia é feito em C/C++, linguagens sem segurança de memória, por questões de desempenho e tradição. Já faz pelo menos 30 anos que esta decisão traz custos enormes em termos de segurança, sendo responsável por um número muito grande de vulnerabilidades. Nesta palestra eu vou mostrar porque estas linguagens são tão perigosas e uma alternativa, a linguagem Rust,  que permite programar software básico com o mínimo de segurança.",
                 "host": "Gustavo Maciel Dias Vieira",
                 "hour": "19h00 - 20h15",
                 "image": "/profgustavo.png",
