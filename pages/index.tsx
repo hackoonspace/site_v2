@@ -52,6 +52,7 @@ export default function Home() {
           }}
         >
           /fhcrefrpergb
+          - Daniella Isami
         </div>
       </main>
       <Footer/>
