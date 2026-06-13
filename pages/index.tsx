@@ -7,7 +7,7 @@ export default function Home() {
       <Navbar/>
       <main>
         <Panel 
-          title="Seja bem-vindo(a)"
+          title="Seja bem-vindo(a)!"
           image="/HackoonEstampa.webp"
           description={[
             <p key='panel-1' className='paragraph'>
